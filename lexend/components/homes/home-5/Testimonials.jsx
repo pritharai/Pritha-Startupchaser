@@ -27,31 +27,32 @@ export default function Testimonials() {
                             <Image
                               className="w-128px dark:d-none"
                               alt="Brand"
-                              src="/assets/images/brands/brand-01.svg"
+                              src="/assets/images/brands/brand-04.svg"
                               width="165"
                               height="48"
                             />
                             <Image
                               className="w-128px d-none dark:d-inline-flex"
                               alt="Brand"
-                              src="/assets/images/brands/brand-01-dark.svg"
+                              src="/assets/images/brands/brand-04-dark.svg"
                               width="165"
                               height="48"
                             />
                           </div>
                         </div>
                         <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">
-                          “We’re looking for people who share our vision! most
-                          of our time used to be taken up by most of alternate
-                          administrative work whereas now we can focus on
-                          building out to help our employees.”
+                          “Thanks to Startup Chaser, I worked on real industrial
+                          projects that showcased my skills. Within weeks, I got
+                          noticed and hired by a top startup! The platform
+                          helped me focus on actual problem-solving instead of
+                          just theoretical learning.”
                         </p>
                       </div>
                       <div className="panel mt-2 lg:mt-4">
                         <div className="panel vstack items-center gap-0 lg:gap-1">
                           <h6 className="h6 lg:h5 m-0">Anna Yon</h6>
                           <span className="fs-7 lg:h6 opacity-70">
-                            Senior UI/UX Designer
+                            SDE-1
                           </span>
                         </div>
                       </div>

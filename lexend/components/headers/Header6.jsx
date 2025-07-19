@@ -22,11 +22,9 @@ export default function Header6({ staticPosition = false }) {
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [prevScrollPos]);
+
   useEffect(() => {
     const header = document.querySelector(".header-seven .uc-navbar-container");
     const menuItems = document.querySelectorAll(".header-seven .has-dd-menu");
@@ -50,6 +48,7 @@ export default function Header6({ staticPosition = false }) {
       });
     };
   }, []);
+
   return (
     <>
       <header
@@ -83,21 +82,22 @@ export default function Header6({ staticPosition = false }) {
                         alt="Lexend"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-new-light.svg"
+                        src="/assets/images/common/logo_light.png"
                       />
                       <Image
                         className="d-none dark:d-block"
-                        alt="Lexend"
+                        alt="Startup Chaser"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-new-dark.svg"
+                        src="/assets/images/common/logo_dark.png"
                       />
                     </Link>
                   </div>
+
                   <ul className="uc-navbar-nav gap-3 d-none lg:d-flex ltr:ms-2 rtl:me-2">
                     <li className="has-dd-menu ">
                       <a href="#" role="button" aria-haspopup="true">
-                        Products{" "}
+                        Get Real Experience
                         <span
                           data-uc-navbar-parent-icon=""
                           className="uc-icon uc-navbar-parent-icon"
@@ -108,7 +108,7 @@ export default function Header6({ staticPosition = false }) {
                               stroke="#000"
                               strokeWidth="1.1"
                               points="1 3.5 6 8.5 11 3.5"
-                            ></polyline>
+                            />
                           </svg>
                         </span>
                       </a>
@@ -131,10 +131,11 @@ export default function Header6({ staticPosition = false }) {
                                     <div className="panel vstack gap-4">
                                       <div className="vstack gap-narrow">
                                         <h5 className="h5 xl:h4 fw-medium m-0">
-                                          Lexend's AI Automation Platform
+                                          Work on Real Startup Projects
                                         </h5>
                                         <p className="fs-7 text-gray-300">
-                                          AI-Powered Automation across 500+ apps
+                                          Gain hands-on experience across 20+
+                                          real-world startup domains
                                         </p>
                                       </div>
                                       <div className="row child-cols-6 gx-6">
@@ -228,45 +229,44 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-api fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Explore Apps
+                                    Explore Projects
                                   </span>
                                 </a>
                               </li>
-                              <li>
+                              {/* <li>
                                 <a href="#">
                                   <i className="fs-8 unicon-airplay fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
                                     AI Solutions
                                   </span>
                                 </a>
-                              </li>
-                              <li>
+                              </li> */}
+                              {/* <li>
                                 <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
                                     Join Lexend Early Access
                                   </span>
                                 </a>
-                              </li>
+                              </li> */}
                             </ul>
                           </div>
                         </div>
                       </div>
                     </li>
+
+                    {/* Hire Interns / Build Tech Team for Companies */}
                     <li className="has-dd-menu">
                       <a href="#" role="button" aria-haspopup="true">
-                        Solutions{" "}
-                        <span
-                          data-uc-navbar-parent-icon=""
-                          className="uc-icon uc-navbar-parent-icon"
-                        >
+                        Hire Interns
+                        <span className="uc-icon uc-navbar-parent-icon">
                           <svg width="12" height="12" viewBox="0 0 12 12">
                             <polyline
                               fill="none"
                               stroke="#000"
                               strokeWidth="1.1"
                               points="1 3.5 6 8.5 11 3.5"
-                            ></polyline>
+                            />
                           </svg>
                         </span>
                       </a>
@@ -289,13 +289,14 @@ export default function Header6({ staticPosition = false }) {
                                   <div className="panel vstack gap-4 py-4">
                                     <div className="vstack gap-narrow flex-none">
                                       <h5 className="h5 xl:h4 fw-medium m-0">
-                                        Workflow quick-start automation guide
+                                        Build Real Projects. Get Hired.
                                       </h5>
                                       <p className="fs-7 text-gray-300">
-                                        How Lexend can help you automate your
-                                        work
+                                        Work on industry-level tasks, grow your
+                                        portfolio, and unlock Pro benefits.
                                       </p>
                                     </div>
+
                                     <div className="row child-cols-4 gx-4 col-match justify-between">
                                       {sections2.map((section, index) => (
                                         <div key={index}>
@@ -365,15 +366,14 @@ export default function Header6({ staticPosition = false }) {
                                       </div>
                                       <div>
                                         <div className="vstack gap-1">
-                                          <span className="fs-6 fw-bold m-0 text-dark dark:text-white">
-                                            Say goodbye to the hassle of
-                                            multi-tasks
-                                          </span>
-                                          <p className="fs-7">
-                                            Managing multiple tasks with AI
-                                            automation.
-                                          </p>
-                                        </div>
+  <span className="fs-6 fw-bold m-0 text-dark dark:text-white">
+    Hire interns without sorting endless resumes
+  </span>
+  <p className="fs-7">
+    Discover pre-vetted talent with proven project experience in one place.
+  </p>
+</div>
+
                                       </div>
                                     </div>
                                     <div className="panel category-section">
@@ -381,7 +381,7 @@ export default function Header6({ staticPosition = false }) {
                                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                                         <li>
                                           <Link href={`/page-contact`}>
-                                            Hire an Expert
+                                            Assemble a Team
                                           </Link>
                                         </li>
                                         <li>
@@ -420,7 +420,7 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-api fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Explore Apps
+                                    Explore Profiles
                                   </span>
                                 </a>
                               </li>
@@ -428,55 +428,73 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-airplay fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    AI Solutions
+                                    Our Solutions
                                   </span>
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                {/* <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Join Lexend Early Access
+                                    Join
                                   </span>
-                                </a>
+                                </a> */}
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
                     </li>
+
+                    {/* Pro Access */}
+                    {/* <li>
+                      <Link href="/pro" className="text-primary fw-bold flex items-center gap-1">
+                        <i className="unicon-star text-yellow-400"></i> Pro Access
+                        <span className="badge bg-yellow-400 text-dark text-xs px-2 py-0.5 rounded-full">New</span>
+                      </Link>
+                    </li> */}
+
+                    {/* Insights & Pricing */}
                     <li>
-                      <Link href={`/blog-sidebar`}>Insights</Link>
+                      <Link href="/blog-sidebar">Insights</Link>
                     </li>
                     <li>
-                      <Link href={`/page-pricing-2`}>Pricing</Link>
+                      <Link href="/page-pricing-2">Pricing</Link>
                     </li>
-                    <li>
+
+                    {/* Demo */}
+                    {/* <li>
                       <a
                         href="https://lexend-nextjs-preview.netlify.app/"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        <i className="icon unicon-cube fw-bold ltr:me-narrow rtl:ms-narrow text-primary dark:text-tertiary"></i>
+                        <i className="icon unicon-cube fw-bold text-primary dark:text-tertiary me-1"></i>
                         <span>All Demo Pages</span>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
+
                 <div className="uc-navbar-right">
                   <ul className="nav-x d-none lg:d-flex">
                     <li className="d-none xl:d-inline-flex">
-                      <Link href={`/page-contact-2`}>Contact sales</Link>
+                      <Link href={`/page-contact-2`}>Contact Sales</Link>
                     </li>
                     <li>
                       <Link href={`/sign-in`}>Log in</Link>
                     </li>
                   </ul>
+
+                  {/* Updated Sign Up Button */}
                   <Link
-                    className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-2 text-none hover:contrast-shadow d-none lg:d-inline-flex"
+                    className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-3 text-none hover:contrast-shadow d-none lg:d-inline-flex"
                     href={`/sign-up`}
                   >
                     Sign up
                   </Link>
+
+                  {/* Mobile Menu Toggle */}
                   <a
                     className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                     onClick={openMobileMenu}

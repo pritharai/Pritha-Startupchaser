@@ -48,9 +48,7 @@ export default function Pricing() {
                             <h3 className="h1 lg:display-6 price m-0 text-dark dark:text-white">
                               {plan.price}
                             </h3>
-                            <span className="h6 lg:h3 m-0 pb-narrow text-dark dark:text-white">
-                              / mo
-                            </span>
+                            
                           </div>
                           <p className="desc lg:fs-5">{plan.description}</p>
                           <Link
@@ -59,7 +57,7 @@ export default function Pricing() {
                           >
                             <span>{plan.linkText}</span>
                           </Link>
-                          <p className="details">Billed annually.</p>
+                          {/* <p className="details">Billed annually.</p> */}
                         </header>
                         <hr className="my-2 md:my-3 lg:my-4" />
                         <div className="tier-body">

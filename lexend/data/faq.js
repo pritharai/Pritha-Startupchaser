@@ -1,67 +1,70 @@
 export const accordionItems = [
   {
     id: 1,
-    question: "Do I need to know about how to code?",
+    question: "Do I need to know how to code?",
     answer:
-      "Yes, you need to have a fair amount of knowledge in dealing with HTML/CSS as well as JavaScript in order to be able to use Lexend.",
+      "Yes, having a good grasp of programming fundamentals (HTML/CSS, JavaScript, or any relevant tech stack) will help you make the most of Startup Chaser’s industrial-grade projects.",
     controls: "uc-accordion-24",
     expanded: true,
   },
   {
     id: 2,
-    question: "Can I use it for commercial projects?",
+    question: "Can I use the project experience on my resume?",
     answer:
-      "Feel free to do so. Lexend does exist to evolve every commercial project. You can also use it to build stunning websites for your own clients (we won’t breathe a word).",
+      "Absolutely! Projects on Startup Chaser are designed to match industry standards, making them a great addition to your resume and portfolio.",
     controls: "uc-accordion-26",
     expanded: false,
   },
   {
     id: 3,
-    question: "Can I use it for multiple projects?",
-    answer: "Definitely! Please use it however you like; we don’t limit it.",
+    question: "Will I receive a certificate for completing projects?",
+    answer:
+      "Yes, you will receive a verifiable certificate upon successful completion of each project, boosting your credibility and visibility to hiring partners.",
     controls: "uc-accordion-28",
     expanded: false,
   },
   {
     id: 4,
-    question: "Can I use this to create and sell a product?",
-    answer: "Do not ever consider doing it.",
+    question: "Can I get hired through Startup Chaser?",
+    answer:
+      "Yes! Top performers are referred to our hiring partners, including Unicorn startups. Completing projects with consistency improves your chances significantly.",
     controls: "uc-accordion-30",
     expanded: false,
   },
   {
     id: 5,
-    question: "What is your refund policy?",
+    question: "Is there any refund policy?",
     answer:
-      "We understand the importance of customer satisfaction and we strive to provide the best products and services. However, please note that due to the nature of our products and services, we do not offer refunds after a purchase has been made.",
+      "Since our platform offers access to real-time, high-value industrial projects and certifications instantly upon enrollment, we currently do not support refunds.",
     controls: "uc-accordion-32",
     expanded: false,
   },
 ];
 
+
 export const accordionItems2 = [
   {
     id: 23,
-    title: "Manage tasks",
+    title: "Build Industry-Level Projects",
     icon: "/assets/images/common/icons/zap.svg",
     content:
-      "Offers a unified platform that fosters innovation while providing end-to-end data management.",
+      "Gain hands-on experience by working on real-world, industry-standard projects designed to simulate actual job environments.",
     isOpen: false,
   },
   {
     id: 25,
-    title: "Set priorities",
+    title: "Master Real-Time Data Handling",
     icon: "/assets/images/common/icons/target.svg",
     content:
-      "Providing end-to-end data management. See how we help your team solve today’s biggest challenges.",
+      "Learn to process, analyze, and manage real-time data with scalable, production-ready solutions used in modern tech stacks.",
     isOpen: false,
   },
   {
     id: 27,
-    title: "Collaborate with your team",
+    title: "Earn Certificates & Get Hired",
     icon: "/assets/images/common/icons/settings.svg",
     content:
-      "Our shared team inboxes keep everyone on the same page and in the loop.",
+      "Unlock professional certifications and boost your visibility to top recruiters from leading startups and unicorn companies.",
     isOpen: true,
   },
 ];

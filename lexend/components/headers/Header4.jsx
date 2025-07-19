@@ -56,7 +56,7 @@ export default function Header4() {
                     </li>
                     <li>
                       <Link href={`/page-contact`}>
-                        <span>Hire an Expert</span>
+                        <span>Contact Us</span>
                         <i className="fs-8 unicon-arrow-up-right fw-bold ms-narrow rtl:-rotate-90" />
                       </Link>
                     </li>
@@ -69,7 +69,7 @@ export default function Header4() {
                       href="tel:01032701349"
                     >
                       <i className="icon-narrow unicon-phone" />
-                      <span>Tel: +1 327 1349</span>
+                      <span>Tel: +91 9041307588</span>
                     </a>
                   </div>
                   <div className="uc-navbar-item">
@@ -99,14 +99,14 @@ export default function Header4() {
                     <Image
                       className="dark:d-none"
                       alt="Lexend"
-                      src="/assets/images/common/logo-light.svg"
+                      src="/assets/images/common/logo_light.png"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
                       alt="Lexend"
-                      src="/assets/images/common/logo-dark.svg"
+                      src="/assets/images/common/logo_dark.png"
                       width="117"
                       height="40"
                     />

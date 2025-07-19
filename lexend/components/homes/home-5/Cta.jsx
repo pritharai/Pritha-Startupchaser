@@ -12,10 +12,10 @@ export default function Cta() {
               className="vstack items-center gap-2 xl:gap-3 max-w-400px lg:max-w-750px mx-auto text-center"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="h4 xl:h3 m-0">Unlock the value of your Data</h2>
+              <h2 className="h4 xl:h3 m-0">Connect with Top Mentors 1:1</h2>
               <p className="fs-6 sm:fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
-                Lexend is a proven leader in trust intelligence, recognized by
-                top analyst firms.
+                Book personalized sessions with industry experts to get tailored
+                guidance and grow your career faster.
               </p>
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1">
                 <a
@@ -24,14 +24,14 @@ export default function Cta() {
                   data-uc-toggle=""
                   role="button"
                 >
-                  <i className="icon-narrow unicon-event-schedule fw-bold"></i>
-                  <span>Get a demo</span>
+                  <i className="icon-narrow unicon-user-chat fw-bold"></i>
+                  <span>Contact a Mentor</span>
                 </a>
                 <Link
-                  href={`/page-pricing`}
+                  href={`/book-session`}
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
-                  Start a free trial
+                  Book 1:1 Session
                 </Link>
               </div>
             </div>

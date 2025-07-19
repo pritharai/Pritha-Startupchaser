@@ -1,65 +1,66 @@
 export const brands = [
   {
     id: 1,
-    src: "/assets/images/brands/brand-01.svg",
-    alt: "Proline",
+    src: "/assets/images/brands/brand-03.svg",
+    alt: "TCS",
   },
   {
     id: 2,
-    src: "/assets/images/brands/brand-02.svg",
-    alt: "Iceberg",
+    src: "/assets/images/brands/infosys.svg",
+    alt: "Infosys",
   },
   {
     id: 3,
-    src: "/assets/images/brands/brand-03.svg",
-    alt: "PinPoint",
+    src: "/assets/images/brands/brand-04.svg",
+    alt: "Wipro",
   },
   {
     id: 4,
-    src: "/assets/images/brands/brand-04.svg",
-    alt: "Clues",
+    src: "/assets/images/brands/hcl.svg",
+    alt: "HCL Technologies",
   },
   {
     id: 5,
     src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
+    alt: "Accenture",
   },
   {
     id: 6,
     src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
+    alt: "Cognizant",
   },
   {
     id: 7,
-    src: "/assets/images/brands/brand-01.svg",
-    alt: "Proline",
+    src: "/assets/images/brands/brand-07.svg",
+    alt: "IBM",
   },
   {
     id: 8,
-    src: "/assets/images/brands/brand-02.svg",
-    alt: "Iceberg",
+    src: "/assets/images/brands/brand-08.svg",
+    alt: "Oracle",
   },
   {
     id: 9,
-    src: "/assets/images/brands/brand-03.svg",
-    alt: "PinPoint",
+    src: "/assets/images/brands/microsoft.svg",
+    alt: "Microsoft",
   },
   {
     id: 10,
-    src: "/assets/images/brands/brand-04.svg",
-    alt: "Clues",
+    src: "/assets/images/brands/google.svg",
+    alt: "Google",
   },
   {
     id: 11,
-    src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
+    src: "/assets/images/brands/aws.svg",
+    alt: "Amazon Web Services",
   },
   {
     id: 12,
-    src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
+    src: "/assets/images/brands/zoho.svg",
+    alt: "Zoho",
   },
 ];
+
 
 export const reviewLogos = [
   {

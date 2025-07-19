@@ -97,37 +97,36 @@ export const tiers = [
 export const pricingPlans = [
   {
     title: "Starter",
-    price: "$49",
-    description: "For creating impressive tools that generate results.",
+    price: "Rs.4999",
+    description: "Get started with hands-on experience and core features.",
     features: [
-      "Up to 10 individual users",
-      "Basic reporting and analytics",
-      "Project Management",
-      "20GB individual data each user",
-      "Basic chat and email support",
+      "Access to 3 industry-level projects",
+      "Real-time data handling basics",
+      "Portfolio enhancement support",
+      "Community support & peer reviews",
+      "Basic progress tracking dashboard",
     ],
     linkText: "Get started",
-
     additionalClasses: "",
   },
   {
     title: "Pro",
-    price: "$79",
-    description: "For seamless integrations and sending tools in bulk.",
+    price: "Rs.14999",
+    description: "Level up with full access and placement opportunities.",
     features: [
-      "Access to all Starter features",
-      "200+ integrations",
-      "Unlimited team workspaces",
-      "Approval workflows",
-      "Salesforce integration*",
+      "All Starter features included",
+      "Unlimited access to projects & tasks",
+      "Advanced real-time system integration",
+      "Mentorship guidance & resume support",
+      "Get noticed by unicorn startups & top recruiters",
     ],
     linkText: "Start a free trial",
-
     additionalClasses:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
     badge: "Popular",
   },
 ];
+
 
 export const tiers2 = [
   {

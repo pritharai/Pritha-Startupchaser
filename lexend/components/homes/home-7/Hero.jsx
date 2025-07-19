@@ -111,8 +111,9 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <span className="fs-7 fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-tertiary">
-                    Automate your workflow
-                  </span>
+  Hire skilled interns effortlessly
+</span>
+
                   {/* <h1 className="h3 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
                     Get more done in less time with
                     <span
@@ -124,46 +125,43 @@ export default function Hero() {
                       <span>AI management</span>
                     </span>
                   </h1> */}
-                  <h1
-                    className="h3 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2"
-                    style={{ transform: "translateY(0px)", opacity: 1 }}
-                  >
-                    Get more done in less time with{" "}
-                    <span
-                      className="px-1 bg-primary text-tertiary dark:bg-tertiary dark:text-primary"
-                      data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
-                    >
-                      <TyperComponent
-                        strings={["AI automation", "Chatbots", "AI management"]}
-                      />
-                    </span>
-                    <span className="typed-cursor" aria-hidden="true">
-                      |
-                    </span>
-                  </h1>
+                  <h1 className="h3 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
+  Build real products with{" "}
+  <span
+    className="px-1 bg-primary text-tertiary dark:bg-tertiary dark:text-primary"
+    data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
+  >
+    <TyperComponent
+      strings={["pre-vetted interns", "real-world talent", "skilled developers"]}
+    />
+  </span>
+  <span className="typed-cursor" aria-hidden="true">
+    |
+  </span>
+</h1>
+
 
                   <p className="fs-6 xl:fs-3 xl:px-6">
-                    Unlock your <b className="dark:text-white">productivity</b>{" "}
-                    potential and automate as fast as you can type with our
-                    intuitive and powerful{" "}
-                    <b className="dark:text-white">AI automation</b> app.
-                  </p>
+  Skip resume screenings and connect with <b className="dark:text-white">industry-ready interns</b> who've already built and shipped projects.
+</p>
+
                   <div
                     className="vstack md:hstack justify-center gap-2 mt-3"
                     style={{ transform: "translateY(0px)", opacity: 1 }}
                   >
                     <a
-                      href="#"
-                      className="btn btn-md xl:btn-lg btn-alt-dark border-dark px-3 lg:px-5 fw-bold contrast-shadow-sm hover:contrast-shadow"
-                    >
-                      <Image
-                        alt="Google Icon"
-                        src="/assets/images/template/google-icon.svg"
-                        width="20"
-                        height="21"
-                      />
-                      <span>Start free trial</span>
-                    </a>
+  href="#"
+  className="btn btn-md xl:btn-lg btn-alt-dark border-dark px-3 lg:px-5 fw-bold contrast-shadow-sm hover:contrast-shadow"
+>
+  <Image
+    alt="Hire icon"
+    src="/assets/images/custom-icons/rocket.svg"
+    width="20"
+    height="21"
+  />
+  <span>Start Hiring Now</span>
+</a>
+
                   </div>
 
                   <div className="panel mt-3 lg:mt-4 min-w-700px text-center">
@@ -187,7 +185,7 @@ export default function Hero() {
                             />
                           </span>
                           <span className="fs-7 fw-medium mb-narrow text-inherit">
-                            AI-Powered Automation
+                            Pre-vetted Interns
                           </span>
                         </div>
                       </div>
@@ -210,7 +208,7 @@ export default function Hero() {
                             />
                           </span>
                           <span className="fs-7 fw-medium mb-narrow text-inherit">
-                            Chatbots, Free forever
+                            Build faster with real skills
                           </span>
                         </div>
                       </div>
@@ -233,7 +231,7 @@ export default function Hero() {
                             />
                           </span>
                           <span className="fs-7 fw-medium mb-narrow text-inherit">
-                            Cutting-edge AI features
+                             Scalable team growth
                           </span>
                         </div>
                       </div>

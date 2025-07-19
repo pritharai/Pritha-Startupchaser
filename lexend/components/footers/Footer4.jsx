@@ -55,14 +55,15 @@ export default function Footer4() {
                           <Image
                             className="text-primary"
                             alt="Lexend"
-                            src="/assets/images/common/logo-dark.svg"
+                            src="/assets/images/common/logo_dark.png"
                             width="117"
                             height="40"
                           />
                         </Link>
                         <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                          Work on real-world industry projects, gain
+                          certifications, and unlock hiring opportunities with
+                          top startups.
                         </p>
                       </div>
                       <LanguageSelect />
@@ -92,7 +93,7 @@ export default function Footer4() {
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
                 <p className="opacity-60">
-                  Lexend © {new Date().getFullYear()}, All rights reserved.
+                  StartupChaser © {new Date().getFullYear()}, All rights reserved.
                 </p>
                 <ul className="nav-x justify-center gap-2 text-gray-300">
                   {socialLinks.map((link, index) => (

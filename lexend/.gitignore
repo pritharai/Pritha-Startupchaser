@@ -34,3 +34,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#unnecessary pages
+.home-1
+.home-2
+.home-3
+.home-4
+.home-6
+.home-7
+.home-8
+.home-9
+.home-10
+

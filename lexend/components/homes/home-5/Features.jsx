@@ -22,9 +22,8 @@ export default function Features() {
                 Recognized by the experts
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management. See how we help your team
-                solve today’s biggest challenges.
+                Empower your future with real-world industry projects, hands-on experience with real-time data, and verified certifications. Explore opportunities to work with top startups and build a portfolio that gets you hired.
+
               </p>
             </div>
             <div

@@ -14,15 +14,15 @@ export default function Topbar() {
         data-uc-close=""
       />
       <p>
-        The Lexend AI automation guide is here.{" "}
+          🚀 Supercharge your career with real startup projects!{" "}
         <br className="d-block lg:d-none" />
         <a
-          href="https://themeforest.net/item/lexend-software-saas-startup-nextjs-template/54003483/"
+          href="/projects"
           className="uc-link text-tertiary dark:text-primary border-bottom"
           target="_blank"
           rel="nofollow"
         >
-          Check it out!
+          Explore Projects Now
         </a>
       </p>
     </div>

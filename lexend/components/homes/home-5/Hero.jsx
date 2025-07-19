@@ -18,15 +18,16 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2">
-                    Use Data &amp; AI, Responsibly
+                    Get Industrial Experience, Enhance Portfolio.
                   </h1>
                   <p className="fs-6 xl:fs-4">
-                    Unlock your productivity potential with our
+                    Gain real-world experience through our
                     <br className="d-none lg:d-block" />
-                    intuitive and powerful to-do app. Manage tasks, set
-                    priorities, collaborate with your team, and track progress
-                    effortlessly.
+                    industry-aligned project modules. Collaborate with peers,
+                    build practical skills, and track your growth as you work on
+                    impactful solutions.
                   </p>
+
                   <div className="vstack gap-1 mt-2 xl:mt-4">
                     <form
                       onSubmit={(e) => e.preventDefault()}
@@ -44,7 +45,7 @@ export default function Hero() {
                       </div>
                       <div className="col-12 sm:col-auto">
                         <button className="btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white">
-                          Get a demo
+                          Book a session
                         </button>
                       </div>
                     </form>
@@ -167,7 +168,7 @@ export default function Hero() {
                       height="1280"
                     />
                   </figure>
-                  <div
+                  {/* <div
                     className="hero-five-contries position-absolute sm:w-300px lg:w-250px xl:w-350px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ top: "20%" }}
@@ -179,8 +180,8 @@ export default function Hero() {
                       width="710"
                       height="854"
                     />
-                  </div>
-                  <div
+                  </div> */}
+                  {/* <div
                     className="hero-five-account position-absolute sm:w-250px lg:w-200px xl:w-300px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ bottom: "20%" }}
@@ -192,7 +193,7 @@ export default function Hero() {
                       width="605"
                       height="274"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

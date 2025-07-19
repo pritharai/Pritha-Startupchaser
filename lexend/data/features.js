@@ -238,17 +238,17 @@ export const featureItems2 = [
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Industry-Level Projects",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Get hands-on experience with real-world projects sourced from actual company challenges and tech stacks.",
   },
   {
     order: "order-0",
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Real-Time Data Handling",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Learn to work with live data, simulate production environments, and gain practical backend/frontend skills.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
@@ -256,17 +256,17 @@ export const featureItems2 = [
     order: "order-2 sm:order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: "Skill-Based Learning",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Projects are designed to enhance core tech skills while aligning with current industry needs and roles.",
   },
   {
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "Get Certified",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Earn verifiable certificates that boost your resume and showcase your achievements to recruiters.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
@@ -274,21 +274,22 @@ export const featureItems2 = [
     order: "order-3 lg:order-0",
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "Career-Ready Portfolio",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Build a portfolio of real projects to impress employers and stand out in job or internship applications.",
   },
   {
     order: "order-2 lg:order-0",
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Third-Party Management",
+    title: "Unicorn Hiring Opportunities",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Top performers get a chance to be referred to hiring partners including leading unicorn startups.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },
 ];
+
 
 export const features5 = [
   {

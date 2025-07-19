@@ -642,41 +642,42 @@ export const icons = [
 export const features = [
   {
     id: 1,
-    iconClass: "unicon-email",
-    title: "Email Template Builder",
-    description: "Design personalized emails that convert",
+    iconClass: "unicon-briefcase",
+    title: "Real-World Projects",
+    description: "Work on industry-level problems and build practical skills",
   },
   {
     id: 2,
-    iconClass: "unicon-blog",
-    title: "Landing Page Builder",
-    description: "Deliver the right message to the right user",
+    iconClass: "unicon-globe",
+    title: "Cross-Domain Exposure",
+    description: "Explore diverse fields like AI, Web, IoT, and more",
   },
   {
     id: 3,
-    iconClass: "unicon-increase-level",
-    title: "Reporting & analytics",
-    description: "Track sales & campaign performance",
+    iconClass: "unicon-chart-growth",
+    title: "Performance Tracking",
+    description: "Receive regular feedback to enhance your learning curve",
   },
   {
     id: 4,
-    iconClass: "unicon-magic-wand-filled",
-    title: "AI-Powered Tools",
-    description: "Say hello to your AI growth assistant",
+    iconClass: "unicon-robot",
+    title: "AI & Automation Tools",
+    description: "Get hands-on with tools used by leading tech companies",
   },
   {
     id: 5,
-    iconClass: "unicon-store",
-    title: "E-commerce and retail",
-    description: "Amplify the conversation across multiple channels",
+    iconClass: "unicon-building",
+    title: "Industry Collaboration",
+    description: "Gain insights by working directly with professionals",
   },
   {
     id: 6,
-    iconClass: "unicon-shopping-catalog",
-    title: "See all products",
-    description: "See all our product and services offerings",
+    iconClass: "unicon-layer-group",
+    title: "Explore All Projects",
+    description: "Browse the full range of student-friendly industry projects",
   },
 ];
+
 export const homeLinks = [
   {
     id: 1,
@@ -761,31 +762,31 @@ export const links = [
 
 export const featurePageLinks = [
   {
-    title: "Products",
+    title: "Projects",
     icon: "unicon-cube",
     items: [
       {
         icon: "icon-01.svg",
-        title: "Email Template Builder",
-        description: "Design personalized emails that convert",
+        title: "Industry-Level Projects",
+        description: "Work on real startup challenges and build your portfolio",
       },
       {
         icon: "icon-02.svg",
-        title: "Landing Page Builder",
-        description: "Deliver the right message to the right user",
+        title: "Real-Time Data Handling",
+        description: "Get hands-on experience managing dynamic data flows",
       },
       {
         icon: "icon-03.svg",
-        title: "Reporting & analytics",
-        description: "Track sales & campaign performance",
+        title: "Certification of Completion",
+        description: "Earn credentials that boost your hiring prospects",
       },
       {
         icon: "icon-07.svg",
-        title: "Chatbots, Free forever",
-        description: "Track sales & campaign performance",
+        title: "Hiring Opportunities",
+        description: "Get noticed by unicorn startups & hiring partners",
       },
     ],
-    viewAllText: "View all products",
+    viewAllText: "View all projects",
   },
   {
     title: "Professional Solutions",
@@ -793,33 +794,34 @@ export const featurePageLinks = [
     items: [
       {
         icon: "icon-04.svg",
-        title: "AI-Powered Tools",
-        description: "Say hello to your AI growth assistant",
+        title: "Project-Based Learning",
+        description: "Master skills through practical, hands-on learning",
       },
       {
         icon: "icon-05.svg",
-        title: "E-commerce and retail",
-        description: "Amplify the conversation across channels",
+        title: "Startup Simulation",
+        description: "Simulate working inside real startup environments",
       },
       {
         icon: "icon-06.svg",
-        title: "Large Community",
-        description: "Our services offerings",
+        title: "Mentor Support",
+        description: "Get guided by professionals from top companies",
       },
       {
         icon: "icon-08.svg",
-        title: "AI-Powered Automation",
-        description: "Our services offerings",
+        title: "Hiring Gateway",
+        description: "Stand a chance to be hired by top-tier startups",
       },
     ],
     viewAllText: "View all solutions",
   },
 ];
+
 export const sections = [
   {
-    title: "Get started is Easy!",
+    title: "Getting started is Easy!",
     links: [
-      { href: "/page-contact", text: "Hire an Expert" },
+      { href: "/page-contact", text: "Assemble your Team" },
       { href: "#", text: "Customer stories" },
       { href: "#", text: "Resources" },
       { href: "/blog-sidebar", text: "Blog" },
@@ -837,74 +839,79 @@ export const sections = [
 ];
 export const sections2 = [
   {
-    title: "Automation",
+    title: "Why Hire Here?",
     icon: "unicon-glyph-square-fill",
     items: [
       {
         icon: "unicon-checkmark",
-        text: "To-Do List",
+        text: "Skill-Proven Interns",
         description:
-          "Managing multiple software and tools for different tasks.",
+          "Each intern has completed real-world tasks and project modules.",
       },
       {
-        icon: "unicon-chart-pie",
-        text: "Reports",
-        description: "The latest industry reports, updates and info.",
+        icon: "unicon-rocket",
+        text: "Faster Onboarding",
+        description:
+          "Access pre-vetted candidates ready to integrate and contribute from Day 1.",
       },
       {
-        icon: "unicon-increase-level",
-        text: "Spreadsheets",
-        description: "Suite of tools that cover all aspects of your business.",
+        icon: "unicon-chart-growth",
+        text: "Scale Teams Quickly",
+        description:
+          "Expand your engineering or design team with minimal hiring effort.",
       },
     ],
   },
   {
-    title: "Teaming",
+    title: "Use Cases",
     icon: "unicon-glyph-circle-fill",
     items: [
       {
-        icon: "unicon-chart-venn-diagram",
-        text: "Collaboration",
+        icon: "unicon-bulb",
+        text: "Startups",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "Early-stage teams hire interns to prototype, test, and iterate faster.",
       },
       {
-        icon: "unicon-chat",
-        text: "Chatbots",
+        icon: "unicon-building",
+        text: "SMEs",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "Scale product development cost-effectively with skilled interns.",
       },
       {
-        icon: "unicon-checkmark",
-        text: "To-Do List",
+        icon: "unicon-briefcase",
+        text: "Agencies",
         description:
-          "Managing multiple software and tools for different tasks.",
+          "Get extra hands on frontend, backend, or product work when scaling clients.",
       },
     ],
   },
   {
-    title: "Use Case",
+    title: "Hiring Benefits",
     icon: "unicon-glyph-caution",
     items: [
       {
-        icon: "unicon-chart-pie",
-        text: "Reports",
-        description: "The latest industry reports, updates and info.",
-      },
-      {
-        icon: "unicon-increase-level",
-        text: "Spreadsheets",
-        description: "Suite of tools that cover all aspects of your business.",
-      },
-      {
-        icon: "unicon-chart-venn-diagram",
-        text: "Collaboration",
+        icon: "unicon-user-check",
+        text: "Pro Intern Profiles",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "View portfolios, GitHub links, and project experience in one place.",
+      },
+      {
+        icon: "unicon-clock",
+        text: "Time-Saving Filters",
+        description:
+          "Filter by tech stack, availability, and project performance.",
+      },
+      {
+        icon: "unicon-message",
+        text: "Direct Communication",
+        description:
+          "Reach out instantly to interns without any middle layer.",
       },
     ],
   },
 ];
+
 
 export const sections3 = [
   {

@@ -9,7 +9,7 @@ export default function Nav3() {
     <>
       <li className="has-dd-menu ">
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          Projects{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -33,7 +33,7 @@ export default function Nav3() {
                     <div className="panel vstack gap-4">
                       <div className="hstack gap-4 justify-between">
                         <h5 className="h5 fw-medium m-0">
-                          Discover our Products &amp; Solutions
+                          Discover our Projects &amp; Solutions
                         </h5>
                         <Link
                           href={`/page-features`}
@@ -73,13 +73,13 @@ export default function Nav3() {
                     <div className="panel vstack gap-2">
                       <div className="hstack gap-4 justify-between">
                         <h6 className="h6 m-0 fs-8 text-uppercase">
-                          Templates and integrations
+                          Openings
                         </h6>
                         <Link
                           href={`/page-integrations`}
                           className="btn btn-text h-24px p-0 fs-8 text-uppercase dark:text-white"
                         >
-                          <span>See +80 integrations</span>
+                          <span>80+ companies</span>
                         </Link>
                       </div>
                       <div className="row child-cols g-0">
@@ -113,7 +113,7 @@ export default function Nav3() {
                   <div className="panel vstack gap-4 p-5 bg-gray-25 dark:bg-gray-800">
                     <div className="panel category-section">
                       <h6 className="h6 fs-8 text-uppercase">
-                        Professional solutions
+                        Professional Guidance
                       </h6>
                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                         {services.map((service, index) => (
@@ -125,7 +125,7 @@ export default function Nav3() {
                     </div>
                     <div className="panel category-section">
                       <h6 className="h6 fs-8 text-uppercase">
-                        Get started is Easy!
+                        Getting started is Easy!
                       </h6>
                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                         {links.map((link, index) => (
@@ -218,8 +218,7 @@ export default function Nav3() {
                       Everything you need is right at your fingertips
                     </h5>
                     <p className="fs-7 opacity-70">
-                      Say goodbye to the hassle of managing multiple software
-                      and tools for different tasks.
+                     Enhance your Portfolio today with Industry-level projects
                     </p>
                   </div>
                   <Link
@@ -297,8 +296,7 @@ export default function Nav3() {
                     <span className="vstack gap-narrow mt-nnarrow">
                       <b className="fw-bold dark:text-white">Video Tutorials</b>
                       <span className="fw-normal">
-                        Assign tasks, share files, and communicate with your
-                        team.
+                        Work on Projects, Build Portfolio and Get Hired Today!
                       </span>
                     </span>
                   </Link>
