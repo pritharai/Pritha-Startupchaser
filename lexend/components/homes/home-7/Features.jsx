@@ -4,12 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 const categories = [
-  "Marketing Automation",
-  "Scheduling",
-  "Project Management",
-  "Finance",
-  "Spreadsheets",
+  "Fullstack Development",
+  "Product Management",
+  "UI/UX Design",
+  // "Project Execution (Real-world Projects)",
+  "Intern Hiring & Team Building",
 ];
+
 export default function Features() {
   const [activeCategory, setActiveCategory] = useState(categories[0]);
   const [filtered, setFiltered] = useState(integrations);
@@ -27,32 +28,38 @@ export default function Features() {
       <div className="section-outer panel py-4 md:py-6 xl:py-10">
         <div className="container sm:max-w-lg">
           <div className="section-inner panel">
-            <div
-              className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 mx-auto text-center"
-              data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-            >
-              <span
-                className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary"
-                style={{ transform: "translateY(0px)", opacity: 1 }}
-              >
-                Integrations
-              </span>
-              <h2
-                className="h3 lg:h2 m-0"
-                style={{ transform: "translateY(0px)", opacity: 1 }}
-              >
-                <span className="px-1 bg-tertiary text-primary">
-                  AI Automation
-                </span>{" "}
-                across 500+ apps
-              </h2>
-              <p
-                className="fs-6 xl:fs-3 xl:px-8"
-                style={{ transform: "translateY(0px)", opacity: 1 }}
-              >
-                See how we help your team solve today’s biggest challenges.
-              </p>
-            </div>
+          <div
+  className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 mx-auto text-center"
+  data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+>
+  <span
+    className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary"
+    style={{ transform: "translateY(0px)", opacity: 1 }}
+  >
+    Real-World Impact
+  </span>
+
+  <h2
+    className="h3 lg:h2 m-0"
+    style={{ transform: "translateY(0px)", opacity: 1 }}
+  >
+    <span className="px-1 bg-tertiary text-primary">
+      AI-Powered Hiring
+    </span>{" "}
+    & Project Marketplace
+  </h2>
+
+  <p
+    className="fs-6 xl:fs-3 xl:px-8"
+    style={{ transform: "translateY(0px)", opacity: 1 }}
+  >
+    We help companies build strong tech teams by streamlining hiring & onboarding through AI automation. 
+    <br className="hidden sm:block" />
+   Gain access to real-world projects that elevate your portfolio.
+  </p>
+</div>
+
+
             <div
               className="panel vstack items-center gap-4 md:gap-6 lg:gap-8"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
@@ -134,7 +141,7 @@ export default function Features() {
                 className="btn btn-md xl:btn-lg btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary-300 px-3 lg:px-5 fw-bold"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                Browse all integrations
+                Browse all Projects
               </Link>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import Footer6 from "@/components/footers/Footer6";
+import Footer4 from "@/components/footers/Footer4";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
 import Blogs from "@/components/homes/home-7/Blogs";
@@ -7,7 +7,7 @@ import Cta from "@/components/homes/home-7/Cta";
 import Faqs from "@/components/homes/home-7/Faqs";
 import Features from "@/components/homes/home-7/Features";
 import Hero from "@/components/homes/home-7/Hero";
-import Pricing from "@/components/homes/home-7/Pricing";
+// import Pricing from "@/components/homes/home-7/Pricing";
 import Solutions from "@/components/homes/home-7/Solutions";
 import Testimonials from "@/components/homes/home-7/Testimonials";
 import React from "react";
@@ -29,13 +29,13 @@ export default function page() {
             <Brands />
             <Features />
             <Solutions />
-            <Pricing />
+            {/* <Pricing /> */}
             <Testimonials />
             <Faqs />
             <Blogs />
             <Cta />
           </div>
-          <Footer6 />
+          <Footer4 />
         </div>
       </div>
     </>

@@ -34,23 +34,26 @@ export default function Solutions() {
         <div className="container sm:max-w-lg">
           <div className="section-inner panel">
             <div
-              className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
-              data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-            >
-              <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary">
-                Solutions
-              </span>
-              <h2 className="h3 lg:h2 m-0">
-                <span className="px-1 bg-tertiary text-primary">
-                  AI-Powered
-                </span>{" "}
-                Automation Solutions
-              </h2>
-              <p className="fs-6 xl:fs-3 xl:px-8">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management.
-              </p>
-            </div>
+  className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
+  data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+>
+  <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary">
+    Solutions
+  </span>
+
+  <h2 className="h3 lg:h2 m-0">
+    <span className="px-1 bg-tertiary text-primary">
+      Hire Smart,
+    </span>{" "}
+    Build Smarter Teams
+  </h2>
+
+  <p className="fs-6 xl:fs-3 xl:px-8">
+    A unified platform connecting companies with skilled interns and tech teams, 
+    while empowering users to work on real-world projects that supercharge their portfolios.
+  </p>
+</div>
+
             <div
               className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
@@ -71,10 +74,9 @@ export default function Solutions() {
                       <div className="vstack gap-1">
                         <h3 className="title h6 m-0">{feature.title}</h3>
                         <p className="desc fs-6 opacity-60 dark:opacity-90">
-                          Whether you have a team of 2 or 200, our shared team
-                          inboxes keep everyone on the same page and in the
-                          loop.
-                        </p>
+  Whether you're a startup of 2 or a growing team of 200, our platform connects you with student talent, streamlines communication, and keeps everyone aligned across real, impactful projects.
+</p>
+
                       </div>
                     </div>
                   </div>
@@ -86,11 +88,13 @@ export default function Solutions() {
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h4 xl:h3 m-0">
-                Say goodbye to the hassle of multi-tasks
-              </h2>
-              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Managing multiple tasks with AI automation.
-              </p>
+  Say goodbye to the hassle of juggling multiple tasks
+</h2>
+<p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
+  Our platform helps you organize, manage, and streamline all your projects and responsibilities in one place.
+</p>
+
+
               <div className="vstack md:hstack justify-center gap-2 mt-3">
                 <a
                   href="#"

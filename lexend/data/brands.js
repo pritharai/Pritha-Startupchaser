@@ -172,8 +172,8 @@ export const brands3 = [
 ];
 
 export const brands4 = [
-  { alt: "Proline", src: "/assets/images/brands/brand-01.svg", width: 165 },
-  { alt: "Iceberg", src: "/assets/images/brands/brand-02.svg", width: 146 },
+  { alt: "Proline", src: "/assets/images/brands/infosys.svg", width: 165 },
+  { alt: "Iceberg", src: "/assets/images/brands/hcl.svg", width: 146 },
   { alt: "PinPoint", src: "/assets/images/brands/brand-03.svg", width: 178 },
   { alt: "Clues", src: "/assets/images/brands/brand-04.svg", width: 177 },
   { alt: "Snowflake", src: "/assets/images/brands/brand-05.svg", width: 179 },

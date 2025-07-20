@@ -189,46 +189,47 @@ export const testimonials3 = [
 
 export const testimonials4 = [
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Mark Zellers",
+    text: "I always struggled to start projects on my own, but the mentorship and clear guidance on this platform helped me finally complete one I’m proud of.",
+    name: "Riya Kapoor",
     imgSrc: "/assets/images/avatars/01.png",
   },
   {
-    text: "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Natalia Larsson",
+    text: "This platform didn’t just give me ideas — it gave me the confidence to build something from scratch. The structured roadmap made everything easier.",
+    name: "Tanmay Raj",
     imgSrc: "/assets/images/avatars/04.png",
   },
   {
-    text: "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder is just outstanding!",
-    name: "Sarah Edrissi",
+    text: "From ideation to deployment, I had constant support. The mentors are super responsive and genuinely care about helping you grow.",
+    name: "Sneha Jadhav",
     imgSrc: "/assets/images/avatars/03.png",
   },
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Anna Yon",
+    text: "We used this platform to build our group project step-by-step. The resources and feedback we got at each phase made a huge difference.",
+    name: "Arjun Patel",
     imgSrc: "/assets/images/avatars/08.png",
   },
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Mark Zellers",
-    imgSrc: "/assets/images/avatars/01.png",
+    text: "What stood out the most was the real-world approach. Instead of theoretical help, I got hands-on guidance tailored to my exact tech stack.",
+    name: "Divya Shah",
+    imgSrc: "/assets/images/avatars/05.png",
   },
   {
-    text: "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Natalia Larsson",
-    imgSrc: "/assets/images/avatars/04.png",
+    text: "I finally built a project I can showcase in interviews. The community and mentorship helped me push past every blocker.",
+    name: "Mohit Singhania",
+    imgSrc: "/assets/images/avatars/06.png",
   },
   {
-    text: "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder is just outstanding!",
-    name: "Sarah Edrissi",
-    imgSrc: "/assets/images/avatars/03.png",
+    text: "As a faculty mentor, I’ve seen students flourish using this platform. It encourages originality while providing just the right level of support.",
+    name: "Prof. Neha Agarwal",
+    imgSrc: "/assets/images/avatars/07.png",
   },
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Anna Yon",
-    imgSrc: "/assets/images/avatars/08.png",
+    text: "I thought building a complete project would take months, but with this platform’s guidance and templates, I shipped in under three weeks!",
+    name: "Karthik Iyer",
+    imgSrc: "/assets/images/avatars/02.png",
   },
 ];
+
 
 export const testimonialsData = [
   {

@@ -16,8 +16,8 @@ export default function Testimonials() {
         <div className="container">
           <div className="section-inner panel">
             <div
-              className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"
-              //   data-anime="onview: -200; targets: > *; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: anime.stagger(100, {start: 200});"
+              className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8 py-6"
+                // data-anime="onview: -200; targets: > *; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto">
                 See what our{" "}
@@ -27,7 +27,7 @@ export default function Testimonials() {
                 are sharing about us!
               </h2>
               <div className="panel w-100">
-                <div
+                {/* <div
                   className="brands panel vstack gap-3 sm:gap-4 xl:gap-5 mb-4 lg:mb-6 xl:mb-8 text-center"
                   data-anime="onview: -200; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
                 >
@@ -63,7 +63,7 @@ export default function Testimonials() {
                       </Swiper>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <Swiper
                   className="swiper overflow-unset"
                   spaceBetween={16}
@@ -80,7 +80,7 @@ export default function Testimonials() {
                 >
                   {testimonials4.map((testimonial, index) => (
                     <SwiperSlide className="swiper-slide" key={index}>
-                      <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border hover:contrast-shadow-md hover:border-dark duration-150">
+                      <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border hover:contrast-shadow-md hover:border-dark duration-150 max-h-70">
                         <div className="panel vstack items-start gap-2">
                           <p className="fs-6 lg:fs-5 text-dark dark:text-white text-opacity-70">
                             “{testimonial.text}”

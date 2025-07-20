@@ -370,44 +370,35 @@ export const features6 = [
 
 export const integrations = [
   {
-    title: "Mailchimp",
-    description: "Share your ideas with Mailchimp email newsletters.",
-    imgSrc: "/assets/images/integrations/mailchimp.png",
-    categories: ["Marketing Automation", "Finance", "Spreadsheets"],
-  },
-  {
-    title: "Asana",
+    title: "AI Support Ticketing System",
     description:
-      "Leading work management from daily tasks to strategic initiatives.",
-    imgSrc: "/assets/images/integrations/asana.png",
-    categories: ["Marketing Automation", "Scheduling", "Project Management"],
+      "AI-powered system with NLP for ticket classification, smart routing, and real-time agent handoff, integrated with dashboards and tools like Slack/Zendesk.",
+    imgSrc: "/assets/images/apps/asana.svg",
+    categories: ["Product Management", "Fullstack Development", "UI/UX Design", "Intern Hiring & Team Building"],
   },
   {
-    title: "Zapier",
-    description: "Send and receive email via a custom Zapier.",
-    imgSrc: "/assets/images/integrations/zapier.png",
-    categories: ["Marketing Automation", "Scheduling", "Spreadsheets"],
-  },
-  {
-    title: "Bitbucket",
-    description: "File sync app that lets you store all of your files online.",
-    imgSrc: "/assets/images/integrations/bitbucket.png",
-    categories: ["Marketing Automation", "Scheduling", "Project Management"],
-  },
-  {
-    title: "Stripe",
+    title: "StartupChaser",
     description:
-      "Developer-friendly way to accept payments online and in mobile apps.",
-    imgSrc: "/assets/images/integrations/stripe.png",
-    categories: ["Marketing Automation", "Finance", "Spreadsheets"],
+      "A PM career launchpad featuring live startup projects, mentorship, certification, and a job marketplace for aspiring product managers.",
+    imgSrc: "/assets/images/common/logo_light.png",
+    categories: ["Product Management", "UI/UX Design", "Intern Hiring & Team Building"],
   },
   {
-    title: "Google Drive",
-    description: "File sync app that lets you store all of your files online.",
-    imgSrc: "/assets/images/integrations/drive.png",
-    categories: ["Marketing Automation", "Finance", "Spreadsheets"],
+    title: "Dominus Healthcare",
+    description:
+      "Digital healthcare platform for teleconsultation, EHR management, appointment scheduling, and hospital integrations with compliance tracking.",
+    imgSrc: "/assets/images/apps/asana.svg",
+    categories: ["Product Management", "Fullstack Development", "UI/UX Design", "Intern Hiring & Team Building"],
+  },
+  {
+    title: "Drive-AI",
+    description:
+      "Driver behavior analytics platform using ML, camera feeds, and vehicle sensors to reduce accidents and improve safety in logistics fleets.",
+    imgSrc: "/assets/images/apps/drive.svg",
+    categories: ["Product Management", "Fullstack Development", "Intern Hiring & Team Building"],
   },
 ];
+
 
 export const features7 = [
   {
@@ -461,34 +452,35 @@ export const features9 = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-01.svg",
-    title: "Fast and Reliable",
+    title: "Hire Skilled Interns Fast",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/home-8-icon-02.svg",
-    title: "Discover Data Everywhere",
+    title: "Build Your Tech Team Easily",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-03.svg",
-    title: "Enrich Data with Context",
+    title: "Verified Projects & Talent",
   },
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-07.svg",
-    title: "Risk Management",
+    title: "Pro Users Work on Live Projects",
   },
   {
     order: "order-3 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-05.svg",
-    title: "Privacy Compliance",
+    title: "Real-Time Collaboration",
   },
   {
     order: "order-2 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-06.svg",
-    title: "Third-Party Management",
+    title: "Track Progress & Earn Points",
   },
 ];
+
 
 export const features10 = [
   {

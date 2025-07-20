@@ -30,13 +30,15 @@ export default function Cta() {
           />
           <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-inherit">
             <span className="px-1 bg-tertiary text-primary d-block lg:d-inline-block">
-              AI automation
+              Project-building
             </span>{" "}
-            solutions!
+            made easy with mentorship!
           </h2>
           <p className="fs-6 sm:fs-5">
-            See how we help your team solve today’s biggest challenges.
+            Discover how our platform helps students and teams build impactful
+            projects through expert guidance and curated resources.
           </p>
+
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a
               href="#"
