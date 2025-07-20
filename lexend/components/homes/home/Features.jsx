@@ -36,7 +36,7 @@ export default function Features() {
     className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary"
     style={{ transform: "translateY(0px)", opacity: 1 }}
   >
-    Real-World Impact
+    Real Impact
   </span>
 
   <h2
@@ -44,19 +44,16 @@ export default function Features() {
     style={{ transform: "translateY(0px)", opacity: 1 }}
   >
     <span className="px-1 bg-tertiary text-primary">
-      AI-Powered Hiring
+      Real World
     </span>{" "}
-    & Project Marketplace
+    Project Marketplace
   </h2>
 
-  <p
-    className="fs-6 xl:fs-3 xl:px-8"
-    style={{ transform: "translateY(0px)", opacity: 1 }}
-  >
-    We help companies build strong tech teams by streamlining hiring & onboarding through AI automation. 
-    <br className="hidden sm:block" />
-   Gain access to real-world projects that elevate your portfolio.
-  </p>
+ <p className="fs-6 xl:fs-3 xl:px-8">
+  Resumes are so last season.{" "}
+  <br className="hidden sm:block" />
+  Show off real projects, not just potential — and get hired for it.
+</p>
 </div>
 
 

@@ -3,12 +3,12 @@
 import TyperComponent from "@/components/common/TyperComponent";
 import Image from "next/image";
 import { useEffect } from "react";
-import { useParallax } from "react-scroll-parallax";
+// import { useParallax } from "react-scroll-parallax";
 
 export default function Hero() {
-  const parallax = useParallax({
-    scale: [0.85, 1.1],
-  });
+//   const parallax = useParallax({
+//     scale: [0.85, 1.1],
+//   });
   return (
     <div
       id="hero_header"
@@ -112,7 +112,7 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <span className="fs-7 fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-tertiary">
-  Hire skilled interns effortlessly
+ For students who hate boring resumes
 </span>
 
                   {/* <h1 className="h3 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
@@ -126,44 +126,43 @@ export default function Hero() {
                       <span>AI management</span>
                     </span>
                   </h1> */}
-                  <h1 className="h1 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
-  Build real products with{" "}
+                <h1 className="h1 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
+  Stop guessing. Start building{" "}
   <span
     className="px-1 bg-primary text-tertiary dark:bg-tertiary dark:text-primary"
     data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
   >
     <TyperComponent
-      strings={["pre-vetted interns", "real-world talent", "skilled developers"]}
+      strings={["skills that matter", "projects that hire", "your dream career"]}
     />
   </span>
-  <span className="typed-cursor" aria-hidden="true">
-    |
-  </span>
+  <span className="typed-cursor" aria-hidden="true">|</span>
 </h1>
 
 
+
                   <p className="fs-6 xl:fs-3 xl:px-6">
-  Skip resume screenings and connect with <b className="dark:text-white">industry-ready interns</b> who've already built and shipped projects.
+  Tired of theory? Build a portfolio that speaks louder than your resume. 
+  Internships, skills, and coffee — we’ve got you covered.
 </p>
 
-                  <div
-                    className="vstack md:hstack justify-center gap-2 mt-3"
-                    style={{ transform: "translateY(0px)", opacity: 1 }}
-                  >
-                    <a
-  href="#"
-  className="btn btn-md xl:btn-lg btn-alt-dark border-dark px-3 lg:px-5 fw-bold contrast-shadow-sm hover:contrast-shadow"
->
-  <Image
-    alt="Hire icon"
-    src="/assets/images/custom-icons/rocket.svg"
-    width="20"
-    height="21"
-  />
-  <span>Start Hiring Now</span>
-</a>
 
-                  </div>
+                  <div className="flex flex-col md:flex-row justify-center items-center gap-6 lg:px-4 mt-4 text-center">
+  <a
+    href="/find-job"
+    className="btn btn-md xl:btn-lg btn-primary px-4 lg:px-6 fw-bold contrast-shadow-sm hover:contrast-shadow whitespace-nowrap"
+  >
+    🚀 Build My Career
+  </a>
+  <a
+    href="/hire-team"
+    className="btn btn-md xl:btn-lg btn-alt-dark border-dark px-4 lg:px-6 fw-bold contrast-shadow-sm hover:contrast-shadow whitespace-nowrap"
+  >
+    Need Interns? Let’s Talk
+  </a>
+</div>
+
+
 
                   <div className="panel mt-3 lg:mt-4 min-w-700px text-center">
                     <div className="row child-cols-12 lg:child-cols-4 justify-center gx-0">
@@ -240,7 +239,7 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="uc-video-scene"
                 ref={parallax.ref}
                 data-anime="scale: [1.2, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 500;"
@@ -256,12 +255,12 @@ export default function Hero() {
                     muted
                     loop
                     autoPlay
-                    poster="assets/images/media/lexend-home-7.png"
-                    src="/assets/images/media/lexend-home-7.webm"
+                    poster="assets/images/media/lexend-home.png"
+                    src="/assets/images/media/lexend-home.webm"
                     title="Video title"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

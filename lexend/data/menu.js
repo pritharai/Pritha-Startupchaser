@@ -28,7 +28,7 @@ export const menuItems = [
         label: "Home 6",
       },
       {
-        href: "/home-7",
+        href: "/home",
         label: "Home 7",
       },
       {
@@ -51,13 +51,13 @@ export const menuItems = [
   },
   {
     id: 2,
-    href: "/page-features",
-    label: "Features",
+    href: "/find-job",
+    label: "Projects",
   },
   {
     id: 3,
-    href: "/page-pricing",
-    label: "Pricing",
+    href: "/hire-team",
+    label: "Hire Team",
   },
   {
     id: 3,
@@ -169,65 +169,7 @@ export const menuItems = [
       },
     ],
   },
-  {
-    id: 8,
-    label: "Shop",
-    subItems: [
-      {
-        label: "Shop layouts",
-        subItems: [
-          {
-            href: "/shop",
-            label: "Shop 4 cols",
-          },
-          {
-            href: "/shop-3",
-            label: "Shop 3 cols",
-          },
-          {
-            href: "/shop-2",
-            label: "Shop 2 cols",
-          },
-          {
-            href: "/shop-sidebar",
-            label: "Shop with sidebar",
-          },
-        ],
-      },
-      {
-        href: "/shop-category/demo",
-        label: "Archive category",
-      },
-      {
-        href: "/shop-product-detail/2",
-        label: "Product detail",
-      },
-      {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail - v2",
-      },
-      {
-        href: "/shop-cart",
-        label: "Cart",
-      },
-      {
-        href: "/shop-cart-2",
-        label: "Cart - v2",
-      },
-      {
-        href: "/shop-checkout",
-        label: "Checkout",
-      },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout - v2",
-      },
-      {
-        href: "/shop-order",
-        label: "Order confirmation",
-      },
-    ],
-  },
+  
 ];
 
 export const pagesData = [
@@ -280,7 +222,7 @@ export const pagesData = [
         // },
       },
       {
-        href: "/home-7",
+        href: "/home",
         label: "Home 07",
         badge: {
           text: "New",

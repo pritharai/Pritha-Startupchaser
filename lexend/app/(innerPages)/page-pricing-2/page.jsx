@@ -2,9 +2,9 @@ import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
 
-import Faqs from "@/components/homes/home-7/Faqs";
+import Faqs from "@/components/homes/home/Faqs";
 
-import Testimonials from "@/components/homes/home-7/Testimonials";
+import Testimonials from "@/components/homes/home/Testimonials";
 import Pricing2 from "@/components/innerpages/Pricing2";
 import PricingCompare from "@/components/innerpages/PricingCompare";
 import React from "react";

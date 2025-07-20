@@ -1,15 +1,15 @@
 import Footer4 from "@/components/footers/Footer4";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
-import Blogs from "@/components/homes/home-7/Blogs";
-import Brands from "@/components/homes/home-7/Brands";
-import Cta from "@/components/homes/home-7/Cta";
-import Faqs from "@/components/homes/home-7/Faqs";
-import Features from "@/components/homes/home-7/Features";
-import Hero from "@/components/homes/home-7/Hero";
-// import Pricing from "@/components/homes/home-7/Pricing";
-import Solutions from "@/components/homes/home-7/Solutions";
-import Testimonials from "@/components/homes/home-7/Testimonials";
+import Blogs from "@/components/homes/home/Blogs";
+import Brands from "@/components/homes/home/Brands";
+import Cta from "@/components/homes/home/Cta";
+import Faqs from "@/components/homes/home/Faqs";
+import Features from "@/components/homes/home/Features";
+import Hero from "@/components/homes/home/Hero";
+// import Pricing from "@/components/homes/home/Pricing";
+import Solutions from "@/components/homes/home/Solutions";
+import Testimonials from "@/components/homes/home/Testimonials";
 import React from "react";
 export const metadata = {
   title:
@@ -22,7 +22,7 @@ export default function page() {
     <>
       <div className="theme-3"
        style={{ fontFamily: "PolySans, sans-serif" }} >
-        <div className="bp-xs page-wrapper home-7 bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-white text-gray-900 dark:bg-black dark:text-gray-200 overflow-x-hidden disable-cursor">
+        <div className="bp-xs page-wrapper home bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-white text-gray-900 dark:bg-black dark:text-gray-200 overflow-x-hidden disable-cursor">
           <Topbar />
           <Header6 />
           <div id="wrapper" className="wrap">
