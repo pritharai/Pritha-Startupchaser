@@ -20,7 +20,7 @@ export const menuItems = [
         label: "Home 4",
       },
       {
-        href: "/home-5",
+        href: "/find-job",
         label: "Home 5",
       },
       {
@@ -256,7 +256,7 @@ export const pagesData = [
         // },
       },
       {
-        href: "/home-5",
+        href: "/find-job",
         label: "Home 05",
         // badge: {
         //   text: "New",
@@ -749,7 +749,7 @@ export const homeLinks = [
   },
   {
     id: 5,
-    href: "/home-5",
+    href: "/find-job",
     imgAlt: "Home - 05",
     imgSrc: "/assets/images/demos/screenshots/index-5.jpg",
     label: "Digital Agency",

@@ -1,16 +1,16 @@
 import Brands from "@/components/common/Brands";
 import Footer4 from "@/components/footers/Footer4";
-import Header4 from "@/components/headers/Header4";
-import Blog from "@/components/homes/home-5/Blog";
-import Cta from "@/components/homes/home-5/Cta";
-import Faq from "@/components/homes/home-5/Faq";
-import Features from "@/components/homes/home-5/Features";
-import Hero from "@/components/homes/home-5/Hero";
-import Howworks from "@/components/homes/home-5/Howworks";
-import Pricing from "@/components/homes/home-5/Pricing";
-import Support from "@/components/homes/home-5/Support";
-import Team from "@/components/homes/home-5/Team";
-import Testimonials from "@/components/homes/home-5/Testimonials";
+import Header4a from "@/components/headers/Header4a";
+import Blog from "@/components/homes/find-job/Blog";
+import Cta from "@/components/homes/hire-team/Cta";
+import Faq from "@/components/homes/hire-team/Faq";
+import Features from "@/components/homes/hire-team/Features";
+import Hero from "@/components/homes/hire-team/Hero";
+import Howworks from "@/components/homes/hire-team/Howworks";
+import Pricing from "@/components/homes/hire-team/Pricing";
+import Support from "@/components/homes/find-job/Support";
+import Team from "@/components/homes/find-job/Team";
+import Testimonials from "@/components/homes/hire-team/Testimonials";
 import React from "react";
 export const metadata = {
   title:
@@ -22,7 +22,7 @@ export default function HomePage5() {
   return (
     <>
       <div className=" page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg dom-ready bp-xl bp-xxl">
-        <Header4 />
+        <Header4a />
         <div id="wrapper" className="wrap">
           <Hero />
           <div
@@ -52,7 +52,7 @@ export default function HomePage5() {
           </div>
           <Features />
           <hr className="w-100 m-0 d-block lg:d-none" />
-          <Cta />
+          {/* <Cta /> */}
           <Howworks />
           <Pricing />
           <Testimonials />
