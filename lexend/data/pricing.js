@@ -127,6 +127,40 @@ export const pricingPlans = [
   },
 ];
 
+export const pricingPlans_hire = [
+  {
+    title: "Starter",
+    price: "Rs.4999",
+    description: "Explore top student talent with verified skills and portfolios.",
+    features: [
+      "Browse 50+ student profiles",
+      "View 3 detailed project case studies per candidate",
+      "Access basic certification verification",
+      "Shortlist & connect with candidates directly",
+      "Community access for hiring discussions",
+    ],
+    linkText: "Start hiring",
+    additionalClasses: "",
+  },
+  {
+    title: "Pro",
+    price: "Rs.14999",
+    description: "Unlock full access to top talent, advanced filters, and team-building tools.",
+    features: [
+      "All Starter features included",
+      "Unlimited candidate profile views",
+      "Advanced search & role-based filtering",
+      "Dedicated hiring support & candidate matching",
+      "Access to pre-screened, startup-ready candidates with real-world experience",
+    ],
+    linkText: "Start your hiring journey",
+    additionalClasses:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+    badge: "Popular",
+  },
+];
+
+
 
 export const tiers2 = [
   {

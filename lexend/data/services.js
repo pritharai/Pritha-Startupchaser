@@ -34,3 +34,30 @@ export const featuresMenu = [
   },
 ];
 
+export const featuresMenu_hire = [
+  {
+    href: "/page-features",
+    iconClass: "unicon-lightbulb",
+    title: "Talent Dashboard",
+    description: "Discover top-performing students across real-world, mentored projects.",
+  },
+  {
+    href: "/page-features",
+    iconClass: "unicon-file-alt",
+    title: "Project Showcase",
+    description: "View detailed student work, project scopes, and solution approaches.",
+  },
+  {
+    href: "/page-features",
+    iconClass: "unicon-database",
+    title: "Skill Insights",
+    description: "Analyze skill development through tracked progress and mentor feedback.",
+  },
+  {
+    href: "/page-features",
+    iconClass: "unicon-users-alt",
+    title: "Early Access Hiring",
+    description: "Engage with students early and offer internships or job opportunities.",
+  },
+];
+

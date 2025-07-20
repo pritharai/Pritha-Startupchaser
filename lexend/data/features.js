@@ -290,6 +290,64 @@ export const featureItems2 = [
   },
 ];
 
+export const featureItems2_hire = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "Pre-Vetted Talent",
+    description:
+      "Access a curated pool of candidates who’ve been evaluated on real-world industry projects and tech skills.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Real-World Experience",
+    description:
+      "Our candidates solve live business problems using real data and production-level environments.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "Skill-Aligned Hiring",
+    description:
+      "Filter candidates based on role-specific competencies to meet your exact hiring needs quickly.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "Certified Readiness",
+    description:
+      "Each candidate brings verified certification proving their project delivery and domain expertise.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
+  },
+  {
+    order: "order-3 lg:order-0",
+    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "Faster Onboarding",
+    description:
+      "Hire candidates who are trained in agile workflows, code standards, and tools your teams already use.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    iconSrc: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "Partner with Us",
+    description:
+      "Join our network to post projects, access premium talent, and build your future tech teams with confidence.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+];
+
+
 
 export const features5 = [
   {

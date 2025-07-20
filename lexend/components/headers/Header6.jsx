@@ -96,7 +96,7 @@ export default function Header6({ staticPosition = false }) {
 
                   <ul className="uc-navbar-nav gap-3 d-none lg:d-flex ltr:ms-2 rtl:me-2">
                     <li className="has-dd-menu ">
-                      <a href="#" role="button" aria-haspopup="true">
+                      <a href="/home-5" role="button" aria-haspopup="true">
                         Get Real Experience
                         <span
                           data-uc-navbar-parent-icon=""
@@ -155,7 +155,7 @@ export default function Header6({ staticPosition = false }) {
                                                 (item, idx) => (
                                                   <div key={idx}>
                                                     <Link
-                                                      href={`/page-features`}
+                                                      href={`/home-5`}
                                                       className="hstack items-start gap-2 text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                     >
                                                       <span className="icon rounded dark:bg-white">

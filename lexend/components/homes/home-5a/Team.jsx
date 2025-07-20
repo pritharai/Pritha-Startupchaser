@@ -17,10 +17,10 @@ export default function Team() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
                 <span className="fw-bold text-primary dark:text-secondary">
-                  {/* Our team */}
+                  Our team
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0 dark:text-white">
-                  Our Team
+                  {/* People you’ll be working with */}
                 </h2>
                 <p className="fs-6 xl:fs-5 dark:text-white text-opacity-70">
                   We’re a 100% remote team spread all across the world.

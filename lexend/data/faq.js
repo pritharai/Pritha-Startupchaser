@@ -41,6 +41,49 @@ export const accordionItems = [
   },
 ];
 
+export const accordionItems_hire = [
+  {
+    id: 1,
+    question: "What kind of talent can I expect on Startup Chaser?",
+    answer:
+      "Startup Chaser features pre-vetted students who’ve completed industry-grade projects, making them ready to contribute from day one. You can filter by tech stack, domain, and project type.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Are the candidate projects verified or assessed?",
+    answer:
+      "Yes. Each student’s project goes through a structured review process. Their portfolio reflects real-world startup scenarios with evaluations from mentors or industry professionals.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Can I contact candidates directly?",
+    answer:
+      "Absolutely. Our recruiter dashboard allows you to shortlist, filter, and directly connect with candidates that match your hiring needs or internship roles.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Is there support for building complete teams or cohorts?",
+    answer:
+      "Yes! We offer custom solutions for startups looking to build project teams or hire in bulk. Our talent-matching service helps align candidates with your company's tech stack and culture.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How does Startup Chaser ensure candidate quality?",
+    answer:
+      "Each student completes real, mentor-guided projects. Their skills are tested in live environments, and they receive certifications that are visible in their public profiles.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
 
 export const accordionItems2 = [
   {
@@ -68,3 +111,31 @@ export const accordionItems2 = [
     isOpen: true,
   },
 ];
+
+export const accordionItems2_hire = [
+  {
+    id: 23,
+    title: "Discover Startup-Ready Talent",
+    icon: "/assets/images/common/icons/zap.svg",
+    content:
+      "Access a pool of students who’ve built industry-grade projects under real-world conditions — ideal for startups and companies seeking high-impact contributors.",
+    isOpen: false,
+  },
+  {
+    id: 25,
+    title: "Evaluate Real-Time Skills in Action",
+    icon: "/assets/images/common/icons/target.svg",
+    content:
+      "Review how candidates handle real-time data, system scalability, and production challenges — ensuring you're hiring for skill, not just theory.",
+    isOpen: false,
+  },
+  {
+    id: 27,
+    title: "Hire with Confidence from Curated Portfolios",
+    icon: "/assets/images/common/icons/settings.svg",
+    content:
+      "Browse verified project portfolios and certifications to connect with students who are already aligned with startup-level expectations.",
+    isOpen: true,
+  },
+];
+

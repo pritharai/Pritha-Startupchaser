@@ -678,6 +678,46 @@ export const features = [
   },
 ];
 
+export const features_hire = [
+  {
+    id: 1,
+    iconClass: "unicon-briefcase",
+    title: "Pre-Vetted Talent",
+    description: "Access a pool of skilled candidates who’ve built real projects under mentorship.",
+  },
+  {
+    id: 2,
+    iconClass: "unicon-globe",
+    title: "Diverse Skillsets",
+    description: "Hire talent across domains like Web, AI/ML, IoT, DevOps, and more.",
+  },
+  {
+    id: 3,
+    iconClass: "unicon-chart-growth",
+    title: "Performance Reports",
+    description: "View student contributions, feedback history, and project impact.",
+  },
+  {
+    id: 4,
+    iconClass: "unicon-users-alt",
+    title: "Team Assembly Support",
+    description: "We help you find interns or contributors who can work well together.",
+  },
+  {
+    id: 5,
+    iconClass: "unicon-building",
+    title: "Direct Collaboration",
+    description: "Engage early with emerging talent and future hires through live projects.",
+  },
+  {
+    id: 6,
+    iconClass: "unicon-layer-group",
+    title: "Explore Project Showcases",
+    description: "See students in action and filter by domain, performance, and team role.",
+  },
+];
+
+
 export const homeLinks = [
   {
     id: 1,
@@ -716,6 +756,51 @@ export const homeLinks = [
   },
 ];
 export const links = [
+  {
+    id: 1,
+    href: "/page-career",
+    label: "Hire an Expert",
+    isInternal: true,
+  },
+  {
+    id: 2,
+    href: "#",
+    label: "Customer stories",
+    isInternal: false,
+  },
+  {
+    id: 3,
+    href: "#",
+    label: "Ressources",
+    isInternal: false,
+  },
+  {
+    id: 4,
+    href: "/blog",
+    label: "Blog",
+    isInternal: true,
+  },
+  {
+    id: 5,
+    href: "/page-career",
+    label: "Career",
+    isInternal: true,
+  },
+  {
+    id: 6,
+    href: "/page-team",
+    label: "Team",
+    isInternal: true,
+  },
+  {
+    id: 7,
+    href: "/page-contact",
+    label: "Get in touch",
+    isInternal: true,
+  },
+];
+
+export const links_hire = [
   {
     id: 1,
     href: "/page-career",
