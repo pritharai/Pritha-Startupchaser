@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "ts-prune": "^0.10.3"
+  }
+}
