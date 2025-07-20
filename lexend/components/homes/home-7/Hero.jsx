@@ -13,6 +13,7 @@ export default function Hero() {
     <div
       id="hero_header"
       className="hero-header hero-seven-scene section panel overflow-hidden"
+       style={{ fontFamily: '"Graphik", "IBM Plex Sans Arabic", sans-serif' }}
     >
       <div className="position-absolute top-0 start-0 end-0 h-screen bg-tertiary-300 dark:bg-primary-700" />
       <div className="position-absolute top-0 start-0 end-0 h-screen bg-gradient-to-b from-transparent via-transparent to-white dark:to-black" />
@@ -125,7 +126,7 @@ export default function Hero() {
                       <span>AI management</span>
                     </span>
                   </h1> */}
-                  <h1 className="h3 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
+                  <h1 className="h1 sm:h2 md:h1 lg:display-6 lh-lg mb-1 xl:mb-2 mt-2">
   Build real products with{" "}
   <span
     className="px-1 bg-primary text-tertiary dark:bg-tertiary dark:text-primary"

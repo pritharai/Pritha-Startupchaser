@@ -8,7 +8,7 @@ export default function Nav3() {
   return (
     <>
       <li className="has-dd-menu ">
-        <a href="#" role="button" aria-haspopup="true">
+        <a href="find-job" role="button" aria-haspopup="true">
           Projects{" "}
           <span
             data-uc-navbar-parent-icon=""
@@ -36,7 +36,7 @@ export default function Nav3() {
                           Discover our Projects &amp; Solutions
                         </h5>
                         <Link
-                          href={`/page-features`}
+                          href={`/find-job`}
                           className="btn btn-sm dark:text-white"
                         >
                           <span>See what's new</span>
@@ -49,7 +49,7 @@ export default function Nav3() {
                         {features.map((feature, index) => (
                           <div key={index}>
                             <Link
-                              href={`/page-features`}
+                              href={`/find-job`}
                               className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
                             >
                               <span className="icon">
@@ -76,7 +76,7 @@ export default function Nav3() {
                           Openings
                         </h6>
                         <Link
-                          href={`/page-integrations`}
+                          href={`/find-job`}
                           className="btn btn-text h-24px p-0 fs-8 text-uppercase dark:text-white"
                         >
                           <span>80+ companies</span>
@@ -118,7 +118,7 @@ export default function Nav3() {
                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                         {services.map((service, index) => (
                           <li key={index}>
-                            <a href="#">{service}</a>
+                            <a href="#pre_cta">{service}</a>
                           </li>
                         ))}
                       </ul>

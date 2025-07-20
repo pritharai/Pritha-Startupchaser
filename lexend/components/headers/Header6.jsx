@@ -56,6 +56,8 @@ export default function Header6({ staticPosition = false }) {
           scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
         }`}
         data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
+
+         style={{ fontFamily: "PolySans, sans-serif" }}
       >
         <nav
           className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 uc-navbar-transparent  ${
@@ -64,6 +66,7 @@ export default function Header6({ staticPosition = false }) {
           data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
           style={{ transform: "translateY(0px)", opacity: 1 }}
         >
+          
           <div className="uc-navbar-main" style={{ "--uc-nav-height": "64px" }}>
             <div className="container">
               <div
@@ -257,7 +260,7 @@ export default function Header6({ staticPosition = false }) {
 
                     {/* Hire Interns / Build Tech Team for Companies */}
                     <li className="has-dd-menu">
-                      <a href="#" role="button" aria-haspopup="true">
+                      <a href="hire-team" role="button" aria-haspopup="true">
                         Hire Interns
                         <span className="uc-icon uc-navbar-parent-icon">
                           <svg width="12" height="12" viewBox="0 0 12 12">
@@ -366,21 +369,23 @@ export default function Header6({ staticPosition = false }) {
                                       </div>
                                       <div>
                                         <div className="vstack gap-1">
-  <span className="fs-6 fw-bold m-0 text-dark dark:text-white">
-    Hire interns without sorting endless resumes
-  </span>
-  <p className="fs-7">
-    Discover pre-vetted talent with proven project experience in one place.
-  </p>
-</div>
-
+                                          <span className="fs-6 fw-bold m-0 text-dark dark:text-white">
+                                            Hire interns without sorting endless
+                                            resumes
+                                          </span>
+                                          <p className="fs-7">
+                                            Discover pre-vetted talent with
+                                            proven project experience in one
+                                            place.
+                                          </p>
+                                        </div>
                                       </div>
                                     </div>
                                     <div className="panel category-section">
                                       <h5 className="h6">Start with ease!</h5>
                                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                                         <li>
-                                          <Link href={`/page-contact`}>
+                                          <Link href={`/hire-team`}>
                                             Assemble a Team
                                           </Link>
                                         </li>
@@ -417,7 +422,7 @@ export default function Header6({ staticPosition = false }) {
                           <div className="container">
                             <ul className="nav-x gap-4 fs-8 fw-medium">
                               <li>
-                                <a href="#">
+                                <a href="hire-team">
                                   <i className="fs-8 unicon-api fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
                                     Explore Profiles
@@ -425,7 +430,7 @@ export default function Header6({ staticPosition = false }) {
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a href="find-job">
                                   <i className="fs-8 unicon-airplay fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
                                     Our Solutions

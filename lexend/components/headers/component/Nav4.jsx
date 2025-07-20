@@ -36,7 +36,7 @@ export default function Nav4() {
                           Build Real Projects, Discover Real Talent
                         </h5>
                         <Link
-                          href={`/page-features`}
+                          href={`/find-job`}
                           className="btn btn-sm dark:text-white"
                         >
                           <span>Explore Projects</span>
@@ -49,7 +49,7 @@ export default function Nav4() {
                         {features_hire.map((feature, index) => (
                           <div key={index}>
                             <Link
-                              href={`/page-features`}
+                              href={`/find-job`}
                               className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
                             >
                               <span className="icon">
@@ -74,7 +74,7 @@ export default function Nav4() {
                       <div className="hstack gap-4 justify-between">
                         <h6 className="h6 m-0 fs-8 text-uppercase">Hire from Talent Pool</h6>
 <Link
-  href={`/page-integrations`}
+  href={`/hire-team`}
   className="btn btn-text h-24px p-0 fs-8 text-uppercase dark:text-white"
 >
   <span>Browse project builders</span>

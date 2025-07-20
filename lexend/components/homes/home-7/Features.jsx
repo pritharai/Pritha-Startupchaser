@@ -137,7 +137,7 @@ export default function Features() {
                 </div>
               </div>
               <Link
-                href={`/page-integrations`}
+                href={`/find-job`}
                 className="btn btn-md xl:btn-lg btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary-300 px-3 lg:px-5 fw-bold"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >

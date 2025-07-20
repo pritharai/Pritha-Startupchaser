@@ -1,4 +1,4 @@
-import Home1 from "../../extras/home-1/page";
+import Home1 from "./(homes)/home-1/page";
 export const metadata = {
   title:
     "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
