@@ -64,11 +64,11 @@ export default function Solutions() {
                   <div className="features-item vstack items-center justify-center text-center gap-4">
                     <div className="icon-box cstack w-48px h-48px dark:bg-tertiary rounded">
                       <Image
-                        className="w-24px xl:w-32px text-primary-400 dark:text-tertiary"
+                        className="w-28px xl:w-32px text-primary-400 dark:text-tertiary"
                         alt="feature-icon"
                         src={feature.icon}
-                        width={24}
-                        height={24}
+                        width={28}
+                        height={48 }
                       />
                     </div>
                     <div className="panel">
