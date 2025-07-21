@@ -33,7 +33,7 @@ export default function Solutions() {
         />
         <div className="container sm:max-w-lg">
           <div className="section-inner panel">
-            <div
+           <div
   className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
   data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
 >
@@ -43,19 +43,20 @@ export default function Solutions() {
 
   <h2 className="h3 lg:h2 m-0">
     <span className="px-1 bg-tertiary text-primary">
-      Hire Smart,
+      Build Real Stuff.
     </span>{" "}
-    Build Smarter Teams
+    Get Noticed.
   </h2>
 
   <p className="fs-6 xl:fs-3 xl:px-8">
-    A unified platform connecting companies with skilled interns and tech teams, 
-    while empowering users to work on real-world projects that supercharge their portfolios.
+    Startupchaser connects students with companies offering paid, unpaid, or open-source projects.
+    Work on live applications, contribute real-time code, and gain practical experience that boosts your career.
   </p>
 </div>
 
+
             <div
-              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match"
+              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-2 g-2 lg:g-6 col-match mx-auto"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
               {features9.map((feature, index) => (

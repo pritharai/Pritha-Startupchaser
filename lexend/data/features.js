@@ -242,36 +242,36 @@ export const featureItems2 = [
     description:
       "Get hands-on experience with real-world projects sourced from actual company challenges and tech stacks.",
   },
+  // {
+  //   order: "order-0",
+  //   iconSrc: "/assets/images/common/icons/database.svg",
+  //   alt: "feature-icon",
+  //   title: "Real-Time Data Handling",
+  //   description:
+  //     "Learn to work with live data, simulate production environments, and gain practical backend/frontend skills.",
+  //   bgClass:
+  //     "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  // },
+  // {
+  //   order: "order-2 sm:order-1 lg:order-0",
+  //   iconSrc: "/assets/images/common/icons/puzzle.svg",
+  //   alt: "feature-icon",
+  //   title: "Skill-Based Learning",
+  //   description:
+  //     "Projects are designed to enhance core tech skills while aligning with current industry needs and roles.",
+  // },
+  // {
+  //   order: "order-1 lg:order-0",
+  //   iconSrc: "/assets/images/common/icons/target.svg",
+  //   alt: "feature-icon",
+  //   title: "Get Certified",
+  //   description:
+  //     "Earn verifiable certificates that boost your resume and showcase your achievements to recruiters.",
+  //   bgClass:
+  //     "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
+  // },
   {
-    order: "order-0",
-    iconSrc: "/assets/images/common/icons/database.svg",
-    alt: "feature-icon",
-    title: "Real-Time Data Handling",
-    description:
-      "Learn to work with live data, simulate production environments, and gain practical backend/frontend skills.",
-    bgClass:
-      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
-  },
-  {
-    order: "order-2 sm:order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/puzzle.svg",
-    alt: "feature-icon",
-    title: "Skill-Based Learning",
-    description:
-      "Projects are designed to enhance core tech skills while aligning with current industry needs and roles.",
-  },
-  {
-    order: "order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/target.svg",
-    alt: "feature-icon",
-    title: "Get Certified",
-    description:
-      "Earn verifiable certificates that boost your resume and showcase your achievements to recruiters.",
-    bgClass:
-      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
-  },
-  {
-    order: "order-3 lg:order-0",
+    order: "order-2 lg:order-0",
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
     title: "Career-Ready Portfolio",
@@ -279,7 +279,7 @@ export const featureItems2 = [
       "Build a portfolio of real projects to impress employers and stand out in job or internship applications.",
   },
   {
-    order: "order-2 lg:order-0",
+    order: "order-3 lg:order-0",
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
     title: "Unicorn Hiring Opportunities",
@@ -298,17 +298,7 @@ export const featureItems2_hire = [
     title: "Pre-Vetted Talent",
     description:
       "Access a curated pool of candidates who’ve been evaluated on real-world industry projects and tech skills.",
-  },
-  {
-    order: "order-0",
-    iconSrc: "/assets/images/common/icons/database.svg",
-    alt: "feature-icon",
-    title: "Real-World Experience",
-    description:
-      "Our candidates solve live business problems using real data and production-level environments.",
-    bgClass:
-      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
-  },
+  }, 
   {
     order: "order-2 sm:order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/puzzle.svg",
@@ -316,24 +306,6 @@ export const featureItems2_hire = [
     title: "Skill-Aligned Hiring",
     description:
       "Filter candidates based on role-specific competencies to meet your exact hiring needs quickly.",
-  },
-  {
-    order: "order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/target.svg",
-    alt: "feature-icon",
-    title: "Certified Readiness",
-    description:
-      "Each candidate brings verified certification proving their project delivery and domain expertise.",
-    bgClass:
-      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
-  },
-  {
-    order: "order-3 lg:order-0",
-    iconSrc: "/assets/images/common/icons/line-chart.svg",
-    alt: "feature-icon",
-    title: "Faster Onboarding",
-    description:
-      "Hire candidates who are trained in agile workflows, code standards, and tools your teams already use.",
   },
   {
     order: "order-2 lg:order-0",
@@ -510,34 +482,25 @@ export const features9 = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-01.svg",
-    title: "Hire Skilled Interns Fast",
+    title: "Get Real-World Experience",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/home-8-icon-02.svg",
-    title: "Build Your Tech Team Easily",
-  },
-  {
-    order: "order-2 sm:order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
-    title: "Verified Projects & Talent",
-  },
-  {
-    order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
-    title: "Pro Users Work on Live Projects",
+    title: "Work on Live Industry Projects",
   },
   {
     order: "order-3 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-05.svg",
-    title: "Real-Time Collaboration",
+    title: "Collaborate with Real Teams",
   },
   {
     order: "order-2 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-06.svg",
-    title: "Track Progress & Earn Points",
+    title: "Track Your Progress & Build Credibility",
   },
 ];
+
 
 
 export const features10 = [
