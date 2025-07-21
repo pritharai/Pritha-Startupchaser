@@ -54,7 +54,7 @@ export default function HomePage5() {
           <hr className="w-100 m-0 d-block lg:d-none" />
           {/* <Cta /> */}
           <Howworks />
-          <Pricing />
+          {/* <Pricing /> */}
           <Testimonials />
           <Faq />
           <Support />
