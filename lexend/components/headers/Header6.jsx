@@ -487,17 +487,23 @@ export default function Header6({ staticPosition = false }) {
                       <Link href={`/page-contact-2`}>Contact Sales</Link>
                     </li>
                     <li>
-                      <Link href={`/sign-in`}>Log in</Link>
+                      <a
+  className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-3 text-none hover:contrast-shadow d-none lg:d-inline-flex"
+  href="https://app.startupchaser.com/auth/login"
+>
+  Log in
+</a>
                     </li>
                   </ul>
 
                   {/* Updated Sign Up Button */}
-                  <Link
-                    className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-3 text-none hover:contrast-shadow d-none lg:d-inline-flex"
-                    href={`/sign-up`}
-                  >
-                    Sign up
-                  </Link>
+                  <a
+  className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-3 text-none hover:contrast-shadow d-none lg:d-inline-flex"
+  href="https://app.startupchaser.com/register"
+>
+  Sign up
+</a>
+
 
                   {/* Mobile Menu Toggle */}
                   <a
