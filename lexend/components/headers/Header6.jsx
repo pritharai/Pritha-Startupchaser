@@ -98,6 +98,9 @@ export default function Header6({ staticPosition = false }) {
                   </div>
 
                   <ul className="uc-navbar-nav gap-3 d-none lg:d-flex ltr:ms-2 rtl:me-2">
+                    <li>
+                      <Link href="/funnel-page">Workshop</Link>
+                    </li>
                     <li className="has-dd-menu ">
                       <a href="/find-job" role="button" aria-haspopup="true">
                         Get Real Experience
@@ -466,6 +469,7 @@ export default function Header6({ staticPosition = false }) {
                     <li>
                       <Link href="/page-pricing-2">Pricing</Link>
                     </li>
+                    
 
                     {/* Demo */}
                     {/* <li>
