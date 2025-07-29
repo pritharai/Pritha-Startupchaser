@@ -77,7 +77,7 @@ export default function Header6({ staticPosition = false }) {
                   <div className="uc-logo">
                     <Link
                       className="panel text-none"
-                      href={`/`}
+                      href={`/home`}
                       style={{ width: 140 }}
                     >
                       <Image
@@ -487,12 +487,12 @@ export default function Header6({ staticPosition = false }) {
 
                 <div className="uc-navbar-right">
                   <ul className="nav-x d-none lg:d-flex">
-                    <li className="d-none xl:d-inline-flex">
+                    {/* <li className="d-none xl:d-inline-flex">
                       <Link href={`/page-contact-2`}>Contact Sales</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <a
-  className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-3 text-none hover:contrast-shadow d-none lg:d-inline-flex"
+  className="btn btn-sm btn-primary text-white dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-3 text-none hover:contrast-shadow d-none lg:d-inline-flex"
   href="https://app.startupchaser.com/auth/login"
 >
   Log in
