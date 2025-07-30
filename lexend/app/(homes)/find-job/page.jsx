@@ -1,6 +1,6 @@
 import Brands from "@/components/common/Brands";
 import Footer4 from "@/components/footers/Footer4";
-import Header4 from "@/components/headers/Header4";
+import Header6 from "@/components/headers/Header6";
 import Blog from "@/components/homes/find-job/Blog";
 import Cta from "@/components/homes/find-job/Cta";
 import Faq from "@/components/homes/find-job/Faq";
@@ -22,7 +22,7 @@ export default function HomePage5() {
   return (
     <>
       <div className=" page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg dom-ready bp-xl bp-xxl">
-        <Header4 />
+        <Header6 />
         <div id="wrapper" className="wrap">
           <Hero />
           <div
