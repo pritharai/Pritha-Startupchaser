@@ -133,13 +133,13 @@ export default function Features() {
                   </div>
                 </div>
               </div>
-              <Link
-                href={`/find-job`}
+              <a
+                href="https://app.startupchaser.com/mentors"
                 className="btn btn-md xl:btn-lg btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary-300 px-3 lg:px-5 fw-bold"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
                 Browse all Projects
-              </Link>
+              </a>
             </div>
           </div>
         </div>
