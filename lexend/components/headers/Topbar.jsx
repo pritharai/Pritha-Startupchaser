@@ -17,7 +17,7 @@ export default function Topbar() {
           🚀 Supercharge your career with real startup projects!{" "}
         <br className="d-block lg:d-none" />
         <a
-          href="/projects"
+          href="https://app.startupchaser.com/mentors"
           className="uc-link text-tertiary dark:text-primary border-bottom"
           target="_blank"
           rel="nofollow"
