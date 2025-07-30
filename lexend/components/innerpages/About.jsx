@@ -43,13 +43,13 @@ export default function About() {
           >
             <div className="vstack items-center gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-850px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                About Lexend.
+                About Startup Chaser.
               </h1>
               <p className="fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
                 In 2014, Steven Smith have gotten so much of our time back that
                 we're now able to put towards things that are actually helping
                 our company as opposed to just throwing content out there. and
-                the idea of Lexend was born. Today, Lexend empowers teams to
+                the idea of Startup Chaser was born. Today, Startup Chaser empowers teams to
                 easily communicate with customers through personalized documents
                 that can be created in minutes, build meaningful relationships.
               </p>

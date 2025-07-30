@@ -54,7 +54,7 @@ export default function Footer4() {
                         <Link href={`/`} style={{ width: 140 }}>
                           <Image
                             className="text-primary"
-                            alt="Lexend"
+                            alt="Startup Chaser"
                             src="/assets/images/common/logo_dark.png"
                             width="117"
                             height="40"

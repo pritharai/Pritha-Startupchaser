@@ -71,15 +71,15 @@ export default function Header3() {
                 >
                   <Image
                     className="dark:d-none"
-                    alt="Lexend"
-                    src="/assets/images/common/logo-light.svg"
+                    alt="Startup Chaser"
+                    src="/assets/images/common/logo_dark.png"
                     width="117"
                     height="40"
                   />
                   <Image
                     className="d-none dark:d-block"
-                    alt="Lexend"
-                    src="/assets/images/common/logo-dark.svg"
+                    alt="Startup Chaser"
+                    src="/assets/images/common/logo_dark.png"
                     width="117"
                     height="40"
                   />
@@ -106,7 +106,7 @@ export default function Header3() {
                     data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 150;"
                   >
                     <p className="fs-7">
-                      Lexend offers a comprehensive suite of tools that cover
+                      Startup Chaser offers a comprehensive suite of tools that cover
                       all aspects of your business.
                     </p>
                     <form

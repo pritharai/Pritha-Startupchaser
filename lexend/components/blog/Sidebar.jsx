@@ -99,7 +99,7 @@ export default function Sidebar() {
       </div>
       <div className="widget social-widget vstack gap-2 text-center p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 bg-gray-25 dark:bg-gray-800">
         <div className="widgt-title">
-          <h4 className="fs-7 m-0">Follow @Lexend</h4>
+          <h4 className="fs-7 m-0">Follow @Startup Chaser</h4>
         </div>
         <div className="widgt-content">
           <form className="vstack gap-1">

@@ -6,9 +6,8 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs2 from "@/components/blog/Blogs2";
 export const metadata = {
   title:
-    "Blog Classic || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Classic ",
+  
 };
 export default function BlogClassicPage() {
   return (

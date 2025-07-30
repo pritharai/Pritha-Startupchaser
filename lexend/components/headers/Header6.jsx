@@ -82,7 +82,7 @@ export default function Header6({ staticPosition = false }) {
                     >
                       <Image
                         className="dark:d-none"
-                        alt="Lexend"
+                        alt="Startup Chaser"
                         width="128"
                         height="34"
                         src="/assets/images/common/logo_light.png"
@@ -251,7 +251,7 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Join Lexend Early Access
+                                    Join Startup Chaser Early Access
                                   </span>
                                 </a>
                               </li> */}
@@ -474,7 +474,7 @@ export default function Header6({ staticPosition = false }) {
                     {/* Demo */}
                     {/* <li>
                       <a
-                        href="https://lexend-nextjs-preview.netlify.app/"
+                        href="https://Startup Chaser-nextjs-preview.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

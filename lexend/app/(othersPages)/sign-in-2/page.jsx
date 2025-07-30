@@ -5,9 +5,9 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import SignIn2 from "@/components/otherPages/SignIn2";
 export const metadata = {
   title:
-    "Signin 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Signin 2 || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function SigninPage2() {
   return (

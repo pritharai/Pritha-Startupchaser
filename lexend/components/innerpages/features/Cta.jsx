@@ -17,7 +17,7 @@ export default function Cta() {
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Try Lexend today
+                  Try Startup Chaser today
                 </Link>
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">

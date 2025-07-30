@@ -2,7 +2,7 @@ export const facts = [
   {
     id: 1,
     year: 2014,
-    description: "Lexend founded",
+    description: "Startup Chaser founded",
     animation:
       "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
   },
@@ -51,7 +51,7 @@ export const factItems = [
 export const panelsData = [
   {
     value: 2014,
-    text: "Lexend founded.",
+    text: "Startup Chaser founded.",
     animationData:
       "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
   },

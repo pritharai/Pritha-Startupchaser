@@ -99,14 +99,14 @@ export default function Cta() {
                 <span className="text-primary">your needs.</span>
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
-                Try Lexend today.
+                Try Startup Chaser today.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column fdr">
                 <Link
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Try Lexend today
+                  Try Startup Chaser today
                 </Link>
                 <a
                   onClick={openContactModal}

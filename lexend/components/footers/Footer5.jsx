@@ -19,8 +19,8 @@ export default function Footer5() {
                         <Link href={`/`} style={{ width: 140 }}>
                           <Image
                             className="text-primary"
-                            alt="Lexend"
-                            src="/assets/images/common/logo-dark.svg"
+                            alt="Startup Chaser"
+                            src="/assets/images/common/logo_dark.png"
                             width="117"
                             height="40"
                           />
@@ -55,7 +55,7 @@ export default function Footer5() {
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
                 <p className="opacity-60">
-                  Lexend © {new Date().getFullYear()}, All rights reserved.
+                  Startup Chaser © {new Date().getFullYear()}, All rights reserved.
                 </p>
                 <ul className="nav-x justify-center gap-2 text-gray-300">
                   {socialLinks.map((link, index) => (

@@ -9,9 +9,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
   title:
-    "Pricing || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Pricing || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function PricingPage() {
   return (

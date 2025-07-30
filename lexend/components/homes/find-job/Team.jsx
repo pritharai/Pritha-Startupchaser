@@ -54,7 +54,7 @@ export default function Team() {
                   ))}
                 </div>
               </div>
-              <div
+              {/* <div
                 className="vstack items-center gap-2 lg:gap-3 max-w-450px mx-auto text-center lg:mt-4"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
@@ -69,7 +69,7 @@ export default function Team() {
                 >
                   <span>Submit application</span>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

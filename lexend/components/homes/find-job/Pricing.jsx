@@ -51,12 +51,12 @@ export default function Pricing() {
                             
                           </div>
                           <p className="desc lg:fs-5">{plan.description}</p>
-                          <Link
+                          <a
                             className="btn btn-md lg:btn-lg btn-primary text-white rounded-default w-100 mt-2"
-                            href={`/sign-up`}
+                            href="https://app.startupchaser.com/login"
                           >
                             <span>{plan.linkText}</span>
-                          </Link>
+                          </a>
                           {/* <p className="details">Billed annually.</p> */}
                         </header>
                         <hr className="my-2 md:my-3 lg:my-4" />
@@ -78,7 +78,7 @@ export default function Pricing() {
                   ))}
                 </div>
               </div>
-              <div
+              {/* <div
                 className="footer panel text-center"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;"
               >
@@ -89,7 +89,7 @@ export default function Pricing() {
                   <span>Compare plans</span>
                 </Link>
                 <p className="mt-2">Prices exclude any applicable taxes.</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

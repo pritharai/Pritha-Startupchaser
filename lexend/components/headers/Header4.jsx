@@ -72,12 +72,12 @@ export default function Header4() {
                       <span>Tel: +91 9041307588</span>
                     </a>
                   </div>
-                  <div className="uc-navbar-item">
+                  {/* <div className="uc-navbar-item">
                     <a className="btn btn-xs p-0 fs-8 text-white" href="#chat">
                       <i className="icon-narrow unicon-chat-bot" />
                       <span>Live Chat</span>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -98,14 +98,14 @@ export default function Header4() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
+                      alt="Startup Chaser"
                       src="/assets/images/common/logo_light.png"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
+                      alt="Startup Chaser"
                       src="/assets/images/common/logo_dark.png"
                       width="117"
                       height="40"

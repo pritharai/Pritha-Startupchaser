@@ -93,7 +93,7 @@ export default function Footer3() {
           <div className="uc-footer-bottom panel vstack gap-4 pt-4 lg:pt-6 border-top dark:text-white">
             <div className="vstack sm:hstack justify-center items-center gap-1 lg:gap-2">
               <p className="opacity-60">
-                Lexend © {new Date().getFullYear()}, All rights reserved.
+                Startup Chaser © {new Date().getFullYear()}, All rights reserved.
               </p>
               <ul className="nav-x gap-2 fw-medium">
                 <li>

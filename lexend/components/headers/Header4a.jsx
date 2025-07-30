@@ -98,14 +98,14 @@ export default function Header4() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
+                      alt="Startup Chaser"
                       src="/assets/images/common/logo_light.png"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
+                      alt="Startup Chaser"
                       src="/assets/images/common/logo_dark.png"
                       width="117"
                       height="40"

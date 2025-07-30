@@ -11,9 +11,8 @@ import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
 export const metadata = {
   title:
-    "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 1 || Startup Chaser ",
+  
 };
 export default function HomePage1() {
   return (

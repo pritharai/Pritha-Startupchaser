@@ -26,7 +26,7 @@ export default function Features() {
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
                 IT and HR teams can automate onboarding, offboarding, and
-                everything in between from within Lexend.
+                everything in between from within Startup Chaser.
               </p>
             </div>
             <div

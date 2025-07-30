@@ -82,7 +82,7 @@ export default function Cta() {
             >
               <h2 className="h3 sm:h1 xl:display-6 m-0">
                 Get started with <br />
-                Lexend today
+                Startup Chaser today
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
                 With native CRM integrations that streamline your entire Tool

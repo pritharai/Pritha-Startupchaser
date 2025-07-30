@@ -11,9 +11,9 @@ import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
   title:
-    "About || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function AboutPage() {
   return (

@@ -13,9 +13,9 @@ import Tools from "@/components/homes/home-8/Tools";
 import React from "react";
 export const metadata = {
   title:
-    "Home 8 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 8 || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

@@ -18,7 +18,7 @@ export default function Facts() {
                 Everything you need is right at your fingertips
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                Lexend is designed to make your work life easier and more
+                Startup Chaser is designed to make your work life easier and more
                 efficient.
               </p>
             </div>

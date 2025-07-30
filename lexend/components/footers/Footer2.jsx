@@ -18,8 +18,8 @@ export default function Footer2() {
                       <Link href={`/`}>
                         <img
                           className=" text-primary"
-                          alt="Lexend"
-                          src="/assets/images/common/logo-dark.svg"
+                          alt="Startup Chaser"
+                          src="/assets/images/common/logo_dark.png"
                         />
                       </Link>
                       <p>
@@ -68,7 +68,7 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lexend © {new Date().getFullYear()}, All rights reserved.
+                  Startup Chaser © {new Date().getFullYear()}, All rights reserved.
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>

@@ -6,9 +6,7 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs6 from "@/components/blog/Blogs6";
 export const metadata = {
   title:
-    "Blog 3 Cols || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog 3 Cols"
 };
 export default function Blog3ColsPage() {
   return (

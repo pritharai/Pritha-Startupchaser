@@ -11,9 +11,9 @@ import Testimonials from "@/components/homes/home-9/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Home 9 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 9 || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

@@ -23,7 +23,7 @@ export default function Hero() {
                   </h1>
                   <p className="fs-6 lg:fs-5 text-dark dark:text-white text-opacity-70">
                     Say goodbye to the hassle of managing multiple software and
-                    tools for different tasks. Lexend offers a comprehensive
+                    tools for different tasks. Startup Chaser offers a comprehensive
                     suite of tools that cover all aspects of your business.
                   </p>
                   <form

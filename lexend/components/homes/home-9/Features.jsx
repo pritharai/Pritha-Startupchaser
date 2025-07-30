@@ -28,7 +28,7 @@ export default function Features() {
                 </span>
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Connect your tools, connect your teams with Lexend.
+                Connect your tools, connect your teams with Startup Chaser.
               </p>
             </div>
             <div

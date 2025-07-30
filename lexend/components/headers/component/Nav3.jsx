@@ -8,7 +8,7 @@ export default function Nav3() {
   return (
     <>
       <li className="has-dd-menu ">
-        <a href="find-job" role="button" aria-haspopup="true">
+        <a href="https://app.startupchaser.com/mentors" role="button" aria-haspopup="true">
           Projects{" "}
           <span
             data-uc-navbar-parent-icon=""

@@ -255,8 +255,8 @@ export default function Hero() {
                     muted
                     loop
                     autoPlay
-                    poster="assets/images/media/lexend-home.png"
-                    src="/assets/images/media/lexend-home.webm"
+                    poster="assets/images/media/Startup Chaser-home.png"
+                    src="/assets/images/media/Startup Chaser-home.webm"
                     title="Video title"
                   />
                 </div>

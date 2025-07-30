@@ -85,9 +85,9 @@ export default function Footer8() {
                         >
                           <Image
                             className="text-tertiary dark:text-primary"
-                            alt="Lexend"
+                            alt="Startup Chaser"
                             data-uc-svg=""
-                            src="/assets/images/common/logo-8-dark.svg"
+                            src="/assets/images/common/logo_dark.png"
                             width={148}
                             height={39}
                           />
@@ -118,7 +118,7 @@ export default function Footer8() {
                 </div>
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 mt-6 border-top">
-                <p>Lexend © {new Date().getFullYear()}, All rights reserved.</p>
+                <p>Startup Chaser © {new Date().getFullYear()}, All rights reserved.</p>
                 <ul className="nav-x justify-center gap-2">
                   <li>
                     <a className="duration-150 hover:text-primary" href="#">

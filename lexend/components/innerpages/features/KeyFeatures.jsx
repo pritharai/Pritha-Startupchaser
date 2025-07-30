@@ -17,7 +17,7 @@ export default function KeyFeatures() {
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
                 Review quickly and confidently using
-                <span className="text-primary"> Lexend.</span>
+                <span className="text-primary"> Startup Chaser.</span>
               </h2>
               <div className="panel">
                 <div

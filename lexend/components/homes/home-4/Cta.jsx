@@ -16,7 +16,7 @@ export default function Cta() {
             >
               <h2 className="h3 lg:h2 m-0">Start your 30-day free trial.</h2>
               <p className="fs-6 md:fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
-                Join over 2,500+ startups already growing with Lexend.
+                Join over 2,500+ startups already growing with Startup Chaser.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column">
                 <a

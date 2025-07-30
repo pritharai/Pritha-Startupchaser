@@ -408,7 +408,7 @@ export default function BlogDetails2({ blogItem }) {
                     <p className="fs-6">
                       Creative and experienced content writer with 6+ years of
                       experience eager to create unique content strategy for
-                      Lexend to turn website visitors into customers.
+                      Startup Chaser to turn website visitors into customers.
                     </p>
                     <ul className="nav-x gap-1 text-gray-400 dark:text-white">
                       <li>

@@ -9,9 +9,9 @@ import Brands from "@/components/innerpages/Brands";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Career || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function CareerPage() {
   return (

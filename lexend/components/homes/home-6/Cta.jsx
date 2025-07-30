@@ -12,7 +12,7 @@ export default function Cta() {
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h2 xl:display-5 text-black">
-                Unleash your creativity with Lexend.
+                Unleash your creativity with Startup Chaser.
               </h2>
               <p className="fs-5 my-0">
                 Start your 14-days free trial. Cancel anytime.

@@ -12,9 +12,8 @@ import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Home 3 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 3 || Startup Chaser ",
+  
 };
 export default function HomePage3() {
   return (

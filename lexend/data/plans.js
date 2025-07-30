@@ -15,7 +15,7 @@ export const panelsData = [
     altText: "crown-icon",
     title: "Learn",
     description:
-      "Lexend team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Startup Chaser team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
   },
   {
     id: 3,

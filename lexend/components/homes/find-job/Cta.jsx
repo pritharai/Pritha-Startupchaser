@@ -19,20 +19,20 @@ export default function Cta() {
               </p>
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1">
                 <a
-                  onClick={openContactModal}
+                  onClick={()=>window.location.href='https://app.startupchaser.com/mentors'}
                   className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs"
                   data-uc-toggle=""
                   role="button"
                 >
-                  <i className="icon-narrow unicon-user-chat fw-bold"></i>
-                  <span>Contact a Mentor</span>
+                  {/* <i className="icon-narrow unicon-user-chat fw-bold text-black"></i> */}
+                  <span>Browse Projects</span>
                 </a>
-                <Link
-                  href={`/book-session`}
+                <a
+                  href="https://app.startupchaser.com/login"
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
                   Book 1:1 Session
-                </Link>
+                </a>
               </div>
             </div>
           </div>

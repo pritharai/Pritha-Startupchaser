@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="position-absolute top-0 start-0 end-0 h-screen blend-difference opacity-20">
           <video
             data-uc-cover=""
-            src="/assets/images/media/lexend-home-8.webm"
+            src="/assets/images/media/Startup Chaser-home-8.webm"
           />
         </div>
         <div className="container">
@@ -114,7 +114,7 @@ export default function Hero() {
                     data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                   >
                     <Image
-                      alt="Dashboard Lexend"
+                      alt="Dashboard Startup Chaser"
                       src="/assets/images/template/dashboard-8-home.png"
                       width={1353}
                       height={978}

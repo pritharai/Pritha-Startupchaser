@@ -89,8 +89,8 @@ export default function MobileMenu() {
             >
               <Image
                 className="w-32px"
-                alt="Lexend"
-                src="/assets/images/common/logo-mark.svg"
+                alt="Startup Chaser"
+                src="/assets/images/common/logo_dark.png"
                 width="34"
                 height="34"
               />

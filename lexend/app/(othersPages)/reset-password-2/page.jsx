@@ -5,9 +5,9 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import Resetpass2 from "@/components/otherPages/Resetpass2";
 export const metadata = {
   title:
-    "Reset Password 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Reset Password 2 || Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Startup Chaser - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ResetPasswordPage2() {
   return (

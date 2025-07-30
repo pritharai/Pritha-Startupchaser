@@ -42,12 +42,12 @@ export default function Support() {
                 Can’t find the answer you’re looking for? Please chat to our
                 friendly team.
               </p>
-              <Link
-                href={`/page-contact`}
+              <a
+                href="https://app.startupchaser.com/contact"
                 className="btn btn-md btn-primary rounded-default text-white shadow-xs mt-1 lg:mt-2"
               >
                 Get in touch
-              </Link>
+              </a>
             </div>
           </div>
         </div>

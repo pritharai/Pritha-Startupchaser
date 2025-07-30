@@ -55,15 +55,15 @@ export default function Header7() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-light.svg"
+                      alt="Startup Chaser"
+                      src="/assets/images/common/logo_dark.png"
                       width={148}
                       height={39}
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-dark.svg"
+                      alt="Startup Chaser"
+                      src="/assets/images/common/logo_dark.png"
                       width={148}
                       height={39}
                     />
@@ -126,7 +126,7 @@ export default function Header7() {
                             <a href="#">
                               <i className="fs-8 unicon-cloud-lightning" />
                               <span className="border-bottom hover:border-primary duration-150">
-                                Join Lexend Early Access
+                                Join Startup Chaser Early Access
                               </span>
                             </a>
                           </li>
@@ -170,7 +170,7 @@ export default function Header7() {
                                       Workflow quick-start automation guide
                                     </h5>
                                     <p className="fs-7 opacity-60">
-                                      How Lexend can help you automate your work
+                                      How Startup Chaser can help you automate your work
                                     </p>
                                   </div>
                                   <div className="row child-cols-4 gx-4 col-match justify-between">
