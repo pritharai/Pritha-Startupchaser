@@ -50,7 +50,7 @@ export default function FullStackWorkshopPage() {
           </div>
 
           <Features />
-          <WhyJoin />
+         
           <hr className="w-100 m-0 d-block lg:d-none" />
           <Cta />
           <Howworks />
