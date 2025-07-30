@@ -39,12 +39,12 @@ export default function Hero() {
 
                   
                   <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
-                    Break Into Product Management with Real Startup Projects
+                    Master Full Stack Development with Real Startup Projects  
                   </span>
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2 text-center">
                     Join <span className="text-primary fw-bold">StartupChaser</span> & Become Like <br />
                      the Top 1% of Successful <br />
-                    <span className="text-primary fw-bold">Product Managers</span>
+                   <span className="text-primary fw-bold">Full Stack Developers</span>
                   </h1>
                   
                   <p className="fs-6 xl:fs-4">

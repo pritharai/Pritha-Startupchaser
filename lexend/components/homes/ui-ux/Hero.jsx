@@ -39,12 +39,12 @@ export default function Hero() {
 
                   
                   <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
-                    Break Into Product Management with Real Startup Projects
+                   Become a Creative Product Designer with Real Startup Experience   
                   </span>
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2 text-center">
-                    Join <span className="text-primary fw-bold">StartupChaser</span> & Become Like <br />
-                     the Top 1% of Successful <br />
-                    <span className="text-primary fw-bold">Product Managers</span>
+                    Join <span className="text-primary fw-bold">StartupChaser’s</span>  UI/UX Workshop <br />
+                    & Learn to Design Like the Top 1%  <br />
+                  <span className="text-primary fw-bold">Product Designers</span> 
                   </h1>
                   
                   <p className="fs-6 xl:fs-4">
@@ -66,6 +66,9 @@ export default function Hero() {
                       </Link>
                     </div>
                   </div>
+
+
+
                   <div className="vstack md:hstack justify-center lg:justify-start gap-2 mt-2 xl:mt-4 fdr">
                     <div className="hstack justify-center gap-0">
                       <Image
