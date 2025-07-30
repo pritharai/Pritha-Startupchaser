@@ -98,9 +98,132 @@ export default function Header6({ staticPosition = false }) {
                   </div>
 
                   <ul className="uc-navbar-nav gap-3 d-none lg:d-flex ltr:ms-2 rtl:me-2">
-                    <li>
-                      <Link href="/funnel-page">Workshop</Link>
-                    </li>
+                    <li className="has-dd-menu">
+  <a href="/funnel-page" role="button" aria-haspopup="true">
+    Workshop
+    <span className="uc-icon uc-navbar-parent-icon">
+      <svg width="12" height="12" viewBox="0 0 12 12">
+        <polyline
+          fill="none"
+          stroke="#000"
+          strokeWidth="1.1"
+          points="1 3.5 6 8.5 11 3.5"
+        />
+      </svg>
+    </span>
+  </a>
+
+  <div
+    className="uc-dropbar uc-dropbar-top p-0 ft-primary text-unset fs-6 fw-normal hide-scrollbar border-top rounded-0 overflow-hidden shadow-xl bg-white dark:bg-gray-900 uc-navbar-dropdown uc-drop"
+    data-uc-drop="offset: 0; boundary: true; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
+    style={{
+      overflowX: "auto",
+      top: 64,
+      left: "0",
+      width: "100vw",
+    }}
+  >
+    <div className="uc-dropbar-content">
+      <div className="container">
+        <div className="uc-dropbar-inner after-bg">
+          <div className="row gx-5 col-match justify-between">
+            <div className="col-12">
+              <div className="panel vstack gap-4 py-4">
+                <div className="vstack gap-narrow">
+                  <h5 className="h5 xl:h4 fw-medium m-0">
+                   StartupChaser Workshop
+
+                  </h5>
+                  <p className="fs-7 text-gray-300">
+                   Build, design, and lead real startup projects — from first idea to live product.
+                  </p>
+                </div>
+
+                <div className="row child-cols-4 gap-4">
+                  <div className="panel">
+                    <Link
+                      href="/full-stack"
+                      className="hstack gap-3 text-dark dark:text-white hover:text-primary"
+                    >
+                      <span className="icon rounded dark:bg-white">
+                        <Image
+                          className="w-32px"
+                          alt="Fullstack Icon"
+                          src="/assets/images/custom-icons/icon-08.svg"
+                          width="24"
+                          height="24"
+                        />
+                      </span>
+                      <div>
+                        <span className="fw-medium mb-narrow">
+                          Fullstack Developer Track
+                        </span>
+                        <p className="fs-8 text-muted">
+                          Learn React, Node.js, APIs, and DB design by building real projects.
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                  {/* Add more roles/tracks here if needed */}
+                  {/* UI/UX Card */}
+                  <div className="panel">
+                    <Link
+                      href="/ui-ux"
+                      className="hstack gap-3 text-dark dark:text-white hover:text-primary"
+                    >
+                      <span className="icon rounded dark:bg-white">
+                        <Image
+                          className="w-32px"
+                          alt="UI/UX Icon"
+                          src="/assets/images/custom-icons/icon-09.svg"
+                          width="24"
+                          height="24"
+                        />
+                      </span>
+                      <div>
+                        <span className="fw-medium mb-narrow">
+                          UI/UX Design Track
+                        </span>
+                        <p className="fs-8 text-muted">
+                          Master Figma, wireframes, prototypes & UX flows through real design projects.
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="uc-dropbar-footer py-2 xl:py-3 border-top bg-white dark:bg-gray-900 dark:text-white">
+      <div className="container">
+        <ul className="nav-x gap-4 fs-8 fw-medium">
+          <li>
+            <Link href="/workshop/fullstack">
+              <i className="fs-8 unicon-api fw-bold"></i>
+              <span className="border-bottom hover:border-primary duration-150">
+                Explore Fullstack Workshop
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/workshop/ui-ux">
+              <i className="fs-8 unicon-vector fw-bold"></i>
+              <span className="border-bottom hover:border-primary duration-150">
+                Explore UI/UX Workshop
+              </span>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</li>
+
+
                     <li className="has-dd-menu ">
                       <a href="/find-job" role="button" aria-haspopup="true">
                         Get Real Experience

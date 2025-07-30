@@ -2,27 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 export default function Testimonials() {
-  const testimonials = [
-    {
-      name: "David Brown",
-      role: "Owner of Brown Marketing",
-      quote:
-        "The course on Business Owners & Entrepreneurs has been a valuable resource for me. It provided insights on how to improve my business strategy and make more informed decisions. The networking opportunities and access to resources have also been helpful. I would recommend it to any entrepreneurial looking to take their business to the next level.",
-    },
-    {
-      name: "Emily Davis",
-      role: "Founder of Davis Solutions",
-      quote:
-        "As a first-time business owner, I was looking for guidance and support in navigating the challenges of entrepreneurship. The course provided me with the skills and knowledge I needed to succeed. The mentorship opportunities and networking opportunities have been invaluable. I highly recommend it to anyone looking to start or grow their business.",
-    },
-    {
-      name: "Michael Johnson",
-      role: "CEO of Johnson & Associates",
-      quote:
-        "This course has been an invaluable resource for me as a business owner. It has helped me develop the skills I need to make better financial decisions that have increased my revenue. Highly recommended to other entrepreneurs.",
-    },
-  ];
-
   return (
     <div
       id="clients_feedbacks"
@@ -35,41 +14,59 @@ export default function Testimonials() {
               className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="h3 lg:h2 xl:h1 m-0 text-center">
-                Hear Our Students
-              </h2>
-
-              <div className="row child-cols-12 md:child-cols-4 justify-center col-match g-4">
-                {testimonials.map((testimonial, index) => (
-                  <div key={index}>
-                    <div className="panel vstack justify-center gap-3 rounded-2 bg-secondary dark:bg-white dark:bg-opacity-5 overflow-hidden text-center h-100">
-                      <div className="panel vstack justify-center gap-3 px-3 py-4 lg:px-4 lg:py-5">
-                        <div className="panel vstack items-center gap-2">
-                          <Image
-                            src={`/assets/images/avatars/0${index + 1}.jpg`}
-                            width={80}
-                            height={80}
-                            alt={`Photo of ${testimonial.name}`}
-                            className="rounded-full"
-                          />
-                          <p className="fs-7 lg:fs-6 text-dark dark:text-white lg:px-2">
-                            "{testimonial.quote.slice(0, 120)}..."
-                          </p>
-                        </div>
-                        <div className="panel mt-2">
-                          <div className="panel vstack items-center gap-0">
-                            <h6 className="h6 lg:h5 m-0">{testimonial.name}</h6>
-                            <span className="fs-7 lg:h6 opacity-70">
-                              {testimonial.role}
-                            </span>
+              <div
+                className="row child-cols-12 justify-center col-match g-2 lg:g-3"
+                data-uc-grid=""
+              >
+                <div>
+                  <div className="panel vstack justify-center gap-3 rounded-2 bg-secondary dark:bg-white dark:bg-opacity-5 overflow-hidden text-center">
+                    <div className="panel vstack justify-center gap-3 px-3 py-4 lg:px-5 lg:py-6">
+                      <div className="panel vstack items-center gap-2">
+                        <div className="panel">
+                          <div className="hstack h-48px">
+                            <Image
+                              className="w-128px dark:d-none"
+                              alt="Brand"
+                              src="/assets/images/brands/brand-04.svg"
+                              width="165"
+                              height="48"
+                            />
+                            <Image
+                              className="w-128px d-none dark:d-inline-flex"
+                              alt="Brand"
+                              src="/assets/images/brands/brand-04-dark.svg"
+                              width="165"
+                              height="48"
+                            />
                           </div>
+                        </div>
+                        <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">
+                          “Thanks to Startup Chaser, I worked on real industrial
+                          projects that showcased my skills. Within weeks, I got
+                          noticed and hired by a top startup! The platform
+                          helped me focus on actual problem-solving instead of
+                          just theoretical learning.”
+                        </p>
+                      </div>
+                      <div className="panel mt-2 lg:mt-4">
+                        <div className="panel vstack items-center gap-0 lg:gap-1">
+                          <h6 className="h6 lg:h5 m-0">Anna Yon</h6>
+                          <span className="fs-7 lg:h6 opacity-70">
+                            SDE-1
+                          </span>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))}
+                </div>
               </div>
-
+              <a
+                href="#"
+                className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
+              >
+                <span>See all feedbacks</span>
+                <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
+              </a>
             </div>
           </div>
         </div>
