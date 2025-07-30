@@ -1,6 +1,6 @@
 "use client";
 import { useContextElement } from "@/context/Context";
-import { icons, menuItems } from "@/data/menu";
+import { icons } from "@/data/menu";
 import { closeMobileMenu } from "@/utlis/toggleMobileMenu";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +24,6 @@ export default function MobileMenu() {
         !elementRef.current.contains(event.target)
       ) {
         closeMobileMenu();
-        // Add your custom logic here
       }
     };
 
@@ -34,9 +33,52 @@ export default function MobileMenu() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+  
   useEffect(() => {
     closeMobileMenu();
   }, [pathname]);
+
+  // Custom navigation items as per requirements
+  const customMenuItems = [
+    {
+      id: 1,
+      label: "Workshop",
+      subItems: [
+        {
+          href: "/full-stack",
+          label: "Fullstack Developer Track",
+        },
+        {
+          href: "/ui-ux",
+          label: "UI/UX Design Track",
+        },
+        {
+          href: "/ui-ux",
+          label: "Product Management Track",
+        },
+      ],
+    },
+    {
+      id: 2,
+      href: "/find-job",
+      label: "Get Real Experience",
+    },
+    {
+      id: 3,
+      href: "/hire-team",
+      label: "Hire Interns",
+    },
+    {
+      id: 4,
+      href: "/blog-sidebar",
+      label: "Insights",
+    },
+    {
+      id: 5,
+      href: "/page-pricing-2",
+      label: "Pricing",
+    },
+  ];
 
   const isMenuActive = (menu) => {
     let isActive = false;
@@ -65,6 +107,7 @@ export default function MobileMenu() {
     }
     return isActive;
   };
+  
   return (
     <div
       ref={containerRef}
@@ -126,7 +169,7 @@ export default function MobileMenu() {
             hidden=""
           />
           <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
-            {menuItems.map((item, index) => (
+            {customMenuItems.map((item, index) => (
               <li
                 key={index}
                 className={`${item.subItems ? "uc-parent" : ""} ${
@@ -230,16 +273,12 @@ export default function MobileMenu() {
               </li>
             ))}
             <li className="hr opacity-10 my-1" />
+            {/* Login and Sign Up buttons for mobile */}
             <li>
-              <Link href={`/sign-up`}>Create an account</Link>
+              <a href="https://app.startupchaser.com/auth/login">Log in</a>
             </li>
             <li>
-              <Link href={`/sign-in`}>Log in</Link>
-            </li>
-            <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
+              <a href="https://app.startupchaser.com/register">Sign up</a>
             </li>
           </ul>
           <ul className="social-icons nav-x mt-4">
