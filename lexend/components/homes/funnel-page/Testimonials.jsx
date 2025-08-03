@@ -60,13 +60,13 @@ export default function Testimonials() {
                   </div>
                 </div>
               </div>
-              <a
+              {/* <a
                 href="#"
                 className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
               >
                 <span>See all feedbacks</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

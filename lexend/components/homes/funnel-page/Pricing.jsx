@@ -104,12 +104,12 @@ export default function Pricing() {
                   ))}
                 </div>
 
-                <Link
-                  href="/sign-in"
+                <a
+                  href="https://app.startupchaser.com/login"
                   className="btn btn-md btn-primary rounded-default text-white w-auto mx-auto"
                 >
                   Join Now
-                </Link>
+                </a>
               </div>
 
               {/* PRICING PLANS SECTION */}
@@ -138,12 +138,12 @@ export default function Pricing() {
                             </h3>
                           </div>
                           <p className="desc lg:fs-5">{plan.description}</p>
-                          <Link
+                          <a
                             className="btn btn-md lg:btn-lg btn-primary text-white rounded-default w-100 mt-2"
-                            href={`/sign-up`}
+                            href="https://app.startupchaser.com/login"
                           >
                             <span>{plan.linkText}</span>
-                          </Link>
+                          </a>
                         </header>
                         <hr className="my-2 md:my-3 lg:my-4" />
                         <div className="tier-body">

@@ -87,12 +87,12 @@ export default function Howworks() {
             </div>
             
             <div className="panel text-center mt-6">
-              <Link
-                href="/sign-in"
+              <a
+                href="https://app.startupchaser.com/login"
                 className="btn btn-md btn-primary rounded-default text-white"
               >
                 Join Now
-              </Link>
+              </a>
               <p className="mt-3 fs-7">Book a Seat worth ₹10,000 for just ₹2,999<br/>limited seats available!</p>
             </div>
           </div>
