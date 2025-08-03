@@ -115,13 +115,13 @@ export default function Features() {
                         <p className="desc fs-7 xl:fs-6 text-opacity-70">
                           {item.description}
                         </p>
-                        <Link
+                        {/* <Link
                           className="uc-link dark:text-secondary fs-7 xl:fs-6 fw-bold hstack gap-1 sm:mt-1"
                           href={`/page-features`}
                         >
                           <span>Learn more</span>
                           <i className="position-relative icon unicon-arrow-right fw-bold rtl:rotate-180 translate-y-px" />
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>

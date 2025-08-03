@@ -53,8 +53,8 @@ export default function Hero() {
 
                   <div className="vstack gap-3 mt-4">
                     <div className="flex justify-center">
-                      <Link
-                        href="/sign-in"
+                      <a
+                        href="https://app.startupchaser.com/login"
                         className="btn btn-primary rounded-default text-white text-base font-semibold"
                         style={{
                           width: '90%',              // Mobile default
@@ -63,7 +63,7 @@ export default function Hero() {
                         }}
                       >
                         Join now
-                      </Link>
+                      </a>
                     </div>
                   </div>
                   <div className="vstack md:hstack justify-center lg:justify-start gap-2 mt-2 xl:mt-4 fdr">

@@ -18,7 +18,7 @@ export default function Cta() {
                 guidance and grow your career faster.
               </p>
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1">
-                <a
+                {/* <a
                   onClick={openContactModal}
                   className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs"
                   data-uc-toggle=""
@@ -26,13 +26,13 @@ export default function Cta() {
                 >
                   <i className="icon-narrow unicon-user-chat fw-bold"></i>
                   <span>Contact a Mentor</span>
-                </a>
-                <Link
-                  href={`/book-session`}
+                </a> */}
+                <a
+                  href="https://app.startupchaser.com/login"
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
                   Book 1:1 Session
-                </Link>
+                </a>
               </div>
             </div>
           </div>
